@@ -5,6 +5,17 @@ from PIL import Image
 import numpy as np
 from keras.preprocessing.image import Iterator
 
+def load_to_numpy(path):
+    img = load_img(path)
+    return img_to_array(img)
+
+def load_img(absolute_path):
+    img = Image.open(absolute_path)
+    return img
+
+def img_to_array(img):
+    x = np.asarray(img, dtype=K.floatx())
+    return x.transpose(2, 0, 1)
 
 class CSVLabelsToOneHot(object):
     def __init__(self, classifications, filename):
@@ -32,6 +43,7 @@ class CSVLabelsToOneHot(object):
 class DirectoryIterator(Iterator):
     def __init__(self, directory,
                 class_indices,
+                output_size,
                  target_size=(256, 256), 
                  batch_size=32, shuffle=True, seed=None,
                  follow_links=False):
@@ -39,12 +51,9 @@ class DirectoryIterator(Iterator):
         #  self.image_data_generator = image_data_generator
         self.target_size = tuple(target_size)
         self.image_shape = (4,) + target_size
-
-        # first, count the number of samples and classes
-
         self.filenames = os.listdir(directory)
         self.nb_sample = len(self.filenames)
-        self.nb_class = len(class_indices)
+        self.output_size = output_size
         self.class_indices = class_indices
         super(DirectoryIterator, self).__init__(self.nb_sample, batch_size, shuffle, seed)
 
@@ -54,23 +63,13 @@ class DirectoryIterator(Iterator):
         # The transformation of images is not under thread lock
         # so it can be done in parallel
         batch_x = np.zeros((current_batch_size,) + self.image_shape, dtype=K.floatx())
-        batch_y = ['' for _, _ in enumerate(index_array) ]
+        batch_y = np.zeros((len(batch_x), self.output_size), dtype=K.floatx())
         for i, j in enumerate(index_array):
             fname = self.filenames[j]
-            img = self.__load_img(os.path.join(self.directory, fname), self.target_size)
-            x = self.__img_to_array(img)
+            x = load_to_numpy(os.path.join(self.directory, fname))
             #  x = self.image_data_generator.random_transform(x)
             #  x = self.image_data_generator.standardize(x)
             batch_x[i] = x
             batch_y[i] = self.class_indices[fname]
-        # optionally save augmented images to disk for debugging purposes
-        # build batch of labels
-        return batch_x, batch_y
+        return (batch_x, batch_y)
 
-    def __load_img(self, absolute_path, dimensions):
-        img = Image.open(absolute_path)
-        #img.resize(dimensions[1], dimensions[0])
-        return img
-    def __img_to_array(self, img):
-        x = np.asarray(img, dtype=K.floatx())
-        return x.transpose(2, 0, 1)
