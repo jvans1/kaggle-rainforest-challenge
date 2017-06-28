@@ -1,4 +1,5 @@
 import csv
+import pdb
 from keras import backend as K
 import os
 from PIL import Image
@@ -30,19 +31,22 @@ class CSVLabelsToOneHot(object):
             for row in reader:
                 i += 1
                 if i == 1: continue
-                images[row[0]+"."+im_format] = self.__one_hot(row[1].split(' '))
+                images[row[0]+"."+im_format] = self.__output(row[1].split(' '))
         return images
 
-    def __one_hot(self, row):
-        hot = np.zeros(len(self.classifications))
-        for r in row:
-            hot[self.classifications.index(r)] = 1
+    def __output(self, row):
+        hot = []
+        for classification in self.classifications:
+            if classification in row:
+                hot.append([1])
+            else:
+                hot.append([0])
         return hot
 
 
 class DirectoryIterator(Iterator):
     def __init__(self, directory,
-                class_indices,
+                filename_to_binary_result_array,
                 output_size,
                  target_size=(256, 256), 
                  batch_size=32, shuffle=True, seed=None,
@@ -54,7 +58,7 @@ class DirectoryIterator(Iterator):
         self.filenames = os.listdir(directory)
         self.nb_sample = len(self.filenames)
         self.output_size = output_size
-        self.class_indices = class_indices
+        self.filename_to_binary_result_array = filename_to_binary_result_array
         super(DirectoryIterator, self).__init__(self.nb_sample, batch_size, shuffle, seed)
 
     def next(self):
@@ -63,13 +67,17 @@ class DirectoryIterator(Iterator):
         # The transformation of images is not under thread lock
         # so it can be done in parallel
         batch_x = np.zeros((current_batch_size,) + self.image_shape, dtype=K.floatx())
-        batch_y = np.zeros((len(batch_x), self.output_size), dtype=K.floatx())
+        batch_y = []
         for i, j in enumerate(index_array):
             fname = self.filenames[j]
             x = load_to_numpy(os.path.join(self.directory, fname))
             #  x = self.image_data_generator.random_transform(x)
             #  x = self.image_data_generator.standardize(x)
             batch_x[i] = x
-            batch_y[i] = self.class_indices[fname]
-        return (batch_x, batch_y)
+            batch_y.append(self.filename_to_binary_result_array[fname])
+        outs = np.stack(np.asarray(batch_y), axis=1)
+        results = (batch_x,)
+        for out in outs:
+            results += (out,)
+        return results
 
