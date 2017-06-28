@@ -25,19 +25,6 @@ classifications = [
     "water"
 ]
 
-class LossHistory(Callback):
-    def on_train_beg(self, logs={}):
-        print("On Train Beg")
-
-    def on_batch_end(self, batch, logs={}):
-        if logs['acc'] < 0.1:
-            super
-            print("\r\nDramatic Drop", logs['acc'])
-        else:
-            super
-
-history = LossHistory()
-
 output = CSVLabelsToOneHot(classifications, 'train_v2.csv').generate_one_hot()
 
 batch_size = 32
@@ -49,10 +36,9 @@ xinps = BatchNormalization()(inps)
 flattened = Flatten()(xinps)
 hidden = Dense(500, activation='relu')(flattened)
 hidden = BatchNormalization()(hidden)
-outs = [ Dense(1,activation='sigmoid')(hidden) for _ in classifications]
+outs = [ Dense(1,activation='sigmoid', name=classification)(hidden) for classification in classifications]
 
 model = Model(inputs=inps, outputs=outs)
 
-model.compile(optimizer=Adam(lr=0.0000001), loss='binary_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=Adam(lr=0.00001), loss='binary_crossentropy', metrics=['accuracy'])
 model.fit_generator(gen, 3000 / batch_size, epochs=8, validation_data=val_gen, validation_steps=2000 / batch_size)
-

@@ -75,9 +75,6 @@ class DirectoryIterator(Iterator):
             #  x = self.image_data_generator.standardize(x)
             batch_x[i] = x
             batch_y.append(self.filename_to_binary_result_array[fname])
-        outs = np.stack(np.asarray(batch_y), axis=1)
-        results = (batch_x,)
-        for out in outs:
-            results += (out,)
-        return results
+        outs = np.concatenate(np.asarray(batch_y), axis=1)
+        return (batch_x, list(outs))
 
