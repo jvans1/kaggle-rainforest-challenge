@@ -6,6 +6,7 @@ from PIL import Image
 import numpy as np
 from keras.preprocessing.image import Iterator
 
+
 def load_to_numpy(path):
     img = load_img(path)
     return img_to_array(img)
@@ -31,7 +32,7 @@ def classify_images(classifications, filename, img_format):
     return images
 
 
-def one_hot_to_classify(one_hot, classifications):
+def one_hot_to_labels(one_hot, classifications):
     res = []
     for present, classification in zip(one_hot, classifications):
         if present > 0.5:
@@ -49,10 +50,12 @@ def one_hot(row, classifications):
     return hot
 
 
+
+
 class DirectoryIterator(Iterator):
     def __init__(self, directory,
                 filename_to_binary_result_array,
-                output_size, classifications, filenames,
+                output_size, filenames,
                  target_size=(256, 256), 
                  batch_size=32, shuffle=True, seed=None,
                  follow_links=False):
@@ -60,7 +63,6 @@ class DirectoryIterator(Iterator):
         #  self.image_data_generator = image_data_generator
         self.target_size = tuple(target_size)
         self.image_shape = (4,) + target_size
-        self.classifications = classifications
         self.filenames = filenames
         self.nb_sample = len(self.filenames)
         self.output_size = output_size
