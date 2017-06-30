@@ -18,36 +18,41 @@ def img_to_array(img):
     x = np.asarray(img, dtype=K.floatx())
     return x.transpose(2, 0, 1)
 
-class CSVLabelsToOneHot(object):
-    def __init__(self, classifications, filename):
-        self.classifications = classifications
-        self.filename = filename
 
-    def generate_one_hot(self, im_format="jpg"):
-        images = {}
-        with open(self.filename) as csvfile:
-            i = 0
-            reader = csv.reader(csvfile)
-            for row in reader:
-                i += 1
-                if i == 1: continue
-                images[row[0]+"."+im_format] = self.__output(row[1].split(' '))
-        return images
+def classify_images(classifications, filename, img_format):
+    images = {}
+    with open(filename) as csvfile:
+        i = 0
+        reader = csv.reader(csvfile)
+        for row in reader:
+            i += 1
+            if i == 1: continue
+            images[row[0]+"."+img_format] = one_hot(row[1].split(' '), classifications)
+    return images
 
-    def __output(self, row):
-        hot = []
-        for classification in self.classifications:
-            if classification in row:
-                hot.append([1])
-            else:
-                hot.append([0])
-        return hot
+
+def one_hot_to_classify(one_hot, classifications):
+    res = []
+    for present, classification in zip(one_hot, classifications):
+        if present > 0.5:
+            res.append(classification)
+
+    return ' '.join(res)
+
+def one_hot(row, classifications):
+    hot = []
+    for classification in classifications:
+        if classification in row:
+            hot.append(1)
+        else:
+            hot.append(0)
+    return hot
 
 
 class DirectoryIterator(Iterator):
     def __init__(self, directory,
                 filename_to_binary_result_array,
-                output_size,
+                output_size, classifications, filenames,
                  target_size=(256, 256), 
                  batch_size=32, shuffle=True, seed=None,
                  follow_links=False):
@@ -55,7 +60,8 @@ class DirectoryIterator(Iterator):
         #  self.image_data_generator = image_data_generator
         self.target_size = tuple(target_size)
         self.image_shape = (4,) + target_size
-        self.filenames = os.listdir(directory)
+        self.classifications = classifications
+        self.filenames = filenames
         self.nb_sample = len(self.filenames)
         self.output_size = output_size
         self.filename_to_binary_result_array = filename_to_binary_result_array
@@ -75,6 +81,5 @@ class DirectoryIterator(Iterator):
             #  x = self.image_data_generator.standardize(x)
             batch_x[i] = x
             batch_y.append(self.filename_to_binary_result_array[fname])
-        outs = np.concatenate(np.asarray(batch_y), axis=1)
+        outs = np.stack(np.asarray(batch_y), axis=1)
         return (batch_x, list(outs))
-
