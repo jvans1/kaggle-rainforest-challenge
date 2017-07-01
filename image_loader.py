@@ -17,7 +17,7 @@ def load_img(absolute_path):
 
 def img_to_array(img):
     x = np.asarray(img, dtype=K.floatx())
-    return x.transpose(2, 0, 1)
+    return x
 
 
 def classify_images(classifications, filename, img_format):
@@ -62,7 +62,7 @@ class DirectoryIterator(Iterator):
         self.directory = directory
         #  self.image_data_generator = image_data_generator
         self.target_size = tuple(target_size)
-        self.image_shape = (4,) + target_size
+        self.image_shape =  target_size + (4,)
         self.filenames = filenames
         self.nb_sample = len(self.filenames)
         self.output_size = output_size
@@ -82,6 +82,12 @@ class DirectoryIterator(Iterator):
             #  x = self.image_data_generator.random_transform(x)
             #  x = self.image_data_generator.standardize(x)
             batch_x[i] = x
-            batch_y.append(self.filename_to_binary_result_array[fname])
-        outs = np.stack(np.asarray(batch_y), axis=1)
-        return (batch_x, list(outs))
+            if self.filename_to_binary_result_array:
+                batch_y.append(self.filename_to_binary_result_array[fname])
+
+        if self.filename_to_binary_result_array:
+            outs = np.stack(np.asarray(batch_y), axis=1)
+            return (batch_x, list(outs))
+        else:
+            return batch_x
+
