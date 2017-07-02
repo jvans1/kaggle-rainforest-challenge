@@ -41,4 +41,3 @@ def compute_results(filenames, predictions):
     results = zip(filenames, labels)
     with open('results.csv','w') as f:
        np.savetxt(f, results, delimiter=",", fmt="%s, %s")
-

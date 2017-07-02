@@ -87,7 +87,7 @@ def vgg16bn(output_classes, weights_file=None, train_conv_layers= False):
     bn_dense_2 = BatchNormalization(axis=1)(dense_2)
     dropout_2 = bn_dense_2 # Dropout(0.4)(bn_dense_2)
     outs = [ Dense(1,activation='sigmoid', name=classification)(dropout_2) for classification in output_classes]
-    outs = [ out for out in outs if out.name in settings.measure_classes ]
+    #outs = [ out for out in outs if out.name in settings.measure_classes ]
     model = Model(inputs=inps, outputs=outs) 
 
     if not train_conv_layers:
