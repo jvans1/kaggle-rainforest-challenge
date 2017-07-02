@@ -26,8 +26,18 @@ CLASSES = [
     "water"
 ]
 
-def generator(settings):
+def train_generator(settings):
+    output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
     return DirectoryIterator(settings.train_folder, output, len(settings.training_classes), settings.training_filenames, batch_size=settings.batch_size)
+
+def validation_generator(settings):
+    output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
+    return DirectoryIterator(settings.validation_folder, output, len(settings.training_classes), settings.validation_filenames, batch_size=settings.batch_size)
+
+
+def evaluation_data(settings):
+    filenames = os.listdir(settings.folder)
+    return filenames, DirectoryIterator(settings.folder, None, len(settings.training_classes), [], batch_size=settings.batch_size, shuffle=False)
 
 def load_to_numpy(path):
     img = load_img(path)
@@ -130,7 +140,6 @@ class DirectoryIterator(Iterator):
 
         if self.filename_to_binary_result_array:
             outs = np.stack(np.asarray(batch_y), axis=1)
-            return (batch_x, list(outs)[:3])
+            return (batch_x, list(outs))
         else:
             return batch_x
-

@@ -38,6 +38,6 @@ def compute_result(filenames, predictions):
     labels = [ one_hot_to_labels(hot, classifications) for hot in predictions ]
     filenames = [ filename[:-4] for filename in filenames ]
     results = zip(filenames, labels)
-    with open('extras.csv','w') as f:
+    with open('results.csv','w') as f:
        np.savetxt(f, results, delimiter=",", fmt="%s, %s")
 

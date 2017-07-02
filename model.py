@@ -1,5 +1,6 @@
-from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxPooling2D, ZeroPadding2D
+from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxPooling2D, ZeroPadding2D, Dropout
 from image_loader import eager_load_data
+from keras.regularizers import l2
 from utils import save_array, load_array
 
 from keras.optimizers import Adam
@@ -21,7 +22,6 @@ CONV_INDEX = 20
 def only_conv_layers_model(classes):
     model = vgg16bn(classes)
     model.layers = model.layers[:CONV_INDEX]
-    model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
 def only_dense_model(classes):
@@ -59,7 +59,7 @@ def save_conv_output(model, settings, output):
 
 
 
-def vgg16bn(output_classes, weights_file=None):
+def vgg16bn(output_classes, weights_file=None, train_conv_layers= False):
     model = VGG16(include_top=False, weights='imagenet')
 
     inps = Input(shape=(256, 256, 4))
@@ -71,16 +71,22 @@ def vgg16bn(output_classes, weights_file=None):
         prev = layer(prev)
 
     flattened = Flatten()(prev)
-    dense_1 = Dense(2048, activation='relu', name="First Dense Layer"   )(flattened)
+    dense_1 = Dense(2048, activation='relu', name="First Dense Layer", kernel_regularizer=l2(0.005)   )(flattened)
     bn_dense_1 = BatchNormalization(axis=1)(dense_1)
+    dropout_1 = Dropout(0.4)(bn_dense_1)
 
-    dense_2 = Dense(2048, activation='relu', name="Last Dense Layer"  )(bn_dense_1)
+    dense_2 = Dense(2048, activation='relu', name="Last Dense Layer", kernel_regularizer=l2(0.005)  )(dropout_1)
     bn_dense_2 = BatchNormalization(axis=1)(dense_2)
-    outs = [ Dense(1,activation='sigmoid', name=classification)(bn_dense_2) for classification in output_classes[:3]]
+    dropout_2 = Dropout(0.4)(bn_dense_2)
+    outs = [ Dense(1,activation='sigmoid', name=classification)(dropout_2) for classification in output_classes]
     model = Model(inputs=inps, outputs=outs) 
-    for layer in model.layers[:CONV_INDEX]:
-        layer.trainable = False
+
+    if not train_conv_layers:
+        for layer in model.layers[:CONV_INDEX]:
+            layer.trainable = False
 
     if weights_file:
         model.load_weights(weights_file)
+
+    model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
     return model

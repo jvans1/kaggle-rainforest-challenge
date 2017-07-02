@@ -21,10 +21,11 @@ CLASSES = [
     "water"
 ]
 
-class SampleTrainingSettings():
-    def __init__(self, batch_size = 16):
-        self.train_folder = 'sample/train'
-        self.validation_folder = 'sample/valid'
+
+class TrainingSettings():
+    def __init__(self, batch_size = 64):
+        self.train_folder = 'train/train'
+        self.validation_folder = 'train/valid'
         self.batch_size = batch_size
         training_filenames = os.listdir(self.train_folder)
         validation_filenames = os.listdir(self.validation_folder)
@@ -43,6 +44,27 @@ class SampleTrainingSettings():
         ]
 
 
+class SampleTrainingSettings():
+    def __init__(self, batch_size = 16):
+        self.train_folder = 'sample/train'
+        self.validation_folder = 'sample/valid'
+        self.batch_size = batch_size
+        training_filenames = os.listdir(self.train_folder)
+        validation_filenames = os.listdir(self.validation_folder)
+        self.validation_filenames =  validation_filenames
+        self.training_filenames =  training_filenames
+        self.training_size = len(training_filenames)
+        self.validation_size = len(validation_filenames)
+        self.training_classes = CLASSES
+        self.training_batch_count = self.training_size / self.batch_size + 1
+        self.validation_batch_count = self.validation_size / self.batch_size + 1
+        self.callbacks = [
+            LearningRateScheduler(learning_rate_scheduler),
+            History(),
+            BaseLogger()
+        ]
+
+
 def learning_rate_scheduler(index):
     if index > 14:
         return 0.00001
@@ -51,3 +73,12 @@ def learning_rate_scheduler(index):
     else:
         return 0.001
 
+class EvaluationSettings():
+    def __init__(self, batch_size = 16):
+        self.folder = 'test-jpg'
+        self.batch_size = batch_size
+        filenames = os.listdir(self.folder)
+        self.filenames =  filenames
+        self.size = len(filenames)
+        self.training_classes = CLASSES
+        self.batch_count = self.size / self.batch_size + 1
