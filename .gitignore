@@ -6,3 +6,4 @@ train_v2.csv
 *.pyc 
 weights/
 test-jpg/
+train-jpg
