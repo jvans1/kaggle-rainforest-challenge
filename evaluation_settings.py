@@ -75,10 +75,11 @@ def learning_rate_scheduler(index):
 
 class EvaluationSettings():
     def __init__(self, batch_size = 16):
-        self.folder = 'test-jpg'
+        self.train_folder = 'test-jpg'
         self.batch_size = batch_size
-        filenames = os.listdir(self.folder)
-        self.filenames =  filenames
-        self.size = len(filenames)
+        training_filenames = os.listdir(self.train_folder)
+        self.training_filenames =  training_filenames
+        self.training_size = len(training_filenames)
         self.training_classes = CLASSES
-        self.batch_count = self.size / self.batch_size + 1
+        self.training_batch_count = self.training_size / self.batch_size + 1
+        self.callbacks = []

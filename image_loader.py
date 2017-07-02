@@ -34,10 +34,13 @@ def validation_generator(settings):
     output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
     return DirectoryIterator(settings.validation_folder, output, len(settings.training_classes), settings.validation_filenames, batch_size=settings.batch_size)
 
+def evaluation_validation_data(settings):
+    filenames = os.listdir(settings.validation_folder)
+    return filenames, DirectoryIterator(settings.validation_folder, None, len(settings.training_classes), settings.validation_filenames, batch_size=settings.batch_size, shuffle=False)
 
 def evaluation_data(settings):
-    filenames = os.listdir(settings.folder)
-    return filenames, DirectoryIterator(settings.folder, None, len(settings.training_classes), [], batch_size=settings.batch_size, shuffle=False)
+    filenames = os.listdir(settings.train_folder)
+    return filenames, DirectoryIterator(settings.train_folder, None, len(settings.training_classes), settings.training_filenames, batch_size=settings.batch_size, shuffle=False)
 
 def load_to_numpy(path):
     img = load_img(path)
