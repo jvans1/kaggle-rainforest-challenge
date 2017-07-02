@@ -46,7 +46,6 @@ def load_valid_conv_output():
 def save_conv_output(model, settings, output):
     data, results = eager_load_data(settings.train_folder, output)
     train_conv_output = model.predict(np.asarray(data))
-    pdb.set_trace()
 
     save_array('train_conv_output_array', train_conv_output)
     save_array('train_conv_output_array_results', results)
@@ -57,6 +56,15 @@ def save_conv_output(model, settings, output):
     save_array('valid_conv_output_array', valid_conv_output)
     save_array('valid_conv_output_array_results', results)
 
+
+def linear_model(output_classes):
+    inps = Input(shape=(256, 256, 4))
+    bn_inp = BatchNormalization(axis=1)(inps)
+    flattened = Flatten()(bn_inp)
+    outs = [ Dense(1,activation='sigmoid', name=classification)(flattened) for classification in output_classes]
+    model = Model(inputs=inps, outputs=outs)
+    model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
+    return model
 
 
 def vgg16bn(output_classes, weights_file=None, train_conv_layers= False):
@@ -71,14 +79,15 @@ def vgg16bn(output_classes, weights_file=None, train_conv_layers= False):
         prev = layer(prev)
 
     flattened = Flatten()(prev)
-    dense_1 = Dense(2048, activation='relu', name="First Dense Layer", kernel_regularizer=l2(0.005)   )(flattened)
+    dense_1 = Dense(2048, activation='relu', name="First Dense Layer"   )(flattened)
     bn_dense_1 = BatchNormalization(axis=1)(dense_1)
-    dropout_1 = Dropout(0.4)(bn_dense_1)
+    dropout_1 = bn_dense_1 # Dropout(0.4)(bn_dense_1)
 
-    dense_2 = Dense(2048, activation='relu', name="Last Dense Layer", kernel_regularizer=l2(0.005)  )(dropout_1)
+    dense_2 = Dense(2048, activation='relu', name="Last Dense Layer"  )(dropout_1)
     bn_dense_2 = BatchNormalization(axis=1)(dense_2)
-    dropout_2 = Dropout(0.4)(bn_dense_2)
+    dropout_2 = bn_dense_2 # Dropout(0.4)(bn_dense_2)
     outs = [ Dense(1,activation='sigmoid', name=classification)(dropout_2) for classification in output_classes]
+    outs = [ out for out in outs if out.name in settings.measure_classes ]
     model = Model(inputs=inps, outputs=outs) 
 
     if not train_conv_layers:

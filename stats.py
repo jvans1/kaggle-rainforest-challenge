@@ -22,7 +22,7 @@ classifications = [
 from image_loader import  one_hot_to_labels
 
 def compute_results_with_validation(filenames, predictions, mapping):
-    labels = [ one_hot_to_labels(hot, classifications) for hot in predictions ]
+    labels = labels_from_predictions(predictions)
     fnames = [ filename[:-4] for filename in filenames ]
     actual_labels = [ one_hot_to_labels(mapping[filename], classifications) for filename in filenames ]
     results = zip(fnames, labels, actual_labels)
@@ -31,9 +31,13 @@ def compute_results_with_validation(filenames, predictions, mapping):
 
 
 
+def labels_from_predictions(predictions):
+     preds = np.concatenate(np.asarray(predictions), axis=1)
+     return [ one_hot_to_labels(hot, classifications) for hot in preds ]
+
 def compute_results(filenames, predictions):
-    labels = [ one_hot_to_labels(hot, classifications) for hot in predictions ]
     filenames = [ filename[:-4] for filename in filenames ]
+    labels = labels_from_predictions(predictions)
     results = zip(filenames, labels)
     with open('results.csv','w') as f:
        np.savetxt(f, results, delimiter=",", fmt="%s, %s")
