@@ -1,7 +1,6 @@
 from keras.callbacks import ModelCheckpoint, BaseLogger, History, LearningRateScheduler
 import numpy as np
 import os
-from image_loader import classify_images, DirectoryIterator, load_to_numpy, one_hot_to_labels
 CLASSES = [
     "agriculture",
     "artisinal_mine",
@@ -53,6 +52,7 @@ class SampleTrainingSettings():
         training_filenames = os.listdir(self.train_folder)
         validation_filenames = os.listdir(self.validation_folder)
         self.validation_filenames =  validation_filenames
+        self.weights_file = 'weights/weights.00-24.87.hdf5'
         self.training_filenames =  training_filenames
         self.measure_classes = ['cloudy']
         self.measure_classes_indexes = [ CLASSES.index(classification) for classification in self.measure_classes]

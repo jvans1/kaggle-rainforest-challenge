@@ -1,7 +1,7 @@
 from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxPooling2D, ZeroPadding2D, Dropout
-from image_loader import eager_load_data
+from image_loading.image_loader import eager_load_data
 from keras.regularizers import l2
-from utils import save_array, load_array
+from image_loading.utils import save_array, load_array
 
 from keras.optimizers import Adam
 import numpy as np

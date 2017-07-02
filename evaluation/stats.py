@@ -19,7 +19,7 @@ classifications = [
     "slash_burn",
     "water"
 ]
-from image_loader import  one_hot_to_labels
+from image_loading.image_loader import  one_hot_to_labels
 
 def compute_results_with_validation(filenames, predictions, mapping):
     labels = labels_from_predictions(predictions)
