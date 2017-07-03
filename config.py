@@ -46,8 +46,8 @@ class TrainingSettings():
 
 class SampleTrainingSettings():
     def __init__(self, batch_size = 16):
-        self.train_folder = 'sample/train'
-        self.validation_folder = 'sample/valid'
+        self.train_folder = '/home/ubuntu/fastai/deeplearning1/nbs/amazon/data/sample/train'
+        self.validation_folder = '/home/ubuntu/fastai/deeplearning1/nbs/amazon/data/sample/valid'
         self.batch_size = batch_size
         training_filenames = os.listdir(self.train_folder)
         validation_filenames = os.listdir(self.validation_folder)

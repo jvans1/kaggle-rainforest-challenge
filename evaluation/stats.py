@@ -35,9 +35,9 @@ def labels_from_predictions(predictions):
      preds = np.concatenate(np.asarray(predictions), axis=1)
      return [ one_hot_to_labels(hot, classifications) for hot in preds ]
 
-def compute_results(filenames, predictions):
+def compute_results(filenames, predictions, fname ='results.csv'):
     filenames = [ filename[:-4] for filename in filenames ]
     labels = labels_from_predictions(predictions)
     results = zip(filenames, labels)
-    with open('results.csv','w') as f:
+    with open('results/'+fname,'w') as f:
        np.savetxt(f, results, delimiter=",", fmt="%s, %s")

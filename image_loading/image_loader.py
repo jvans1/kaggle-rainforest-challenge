@@ -145,8 +145,7 @@ class DirectoryIterator(Iterator):
 
         if self.filename_to_binary_result_array:
             outs = np.stack(np.asarray(batch_y), axis=1)
-            outs = [ np.asarray(out) for out, i in zip(outs, range(len(outs))) if i in self.settings.measure_classes_indexes ]
-            print("OUT COUNT: " +str(len(outs)))
-            return (batch_x, outs)
+            #  outs = [ np.asarray(out) for out, i in zip(outs, range(len(outs))) if i in self.settings.measure_classes_indexes ]
+            return (batch_x, list(outs))
         else:
             return batch_x

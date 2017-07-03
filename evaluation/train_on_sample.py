@@ -14,6 +14,6 @@ filenames, gen = evaluation_data(settings)
 val_filenames, val_gen = evaluation_validation_data(settings)
 model = vgg16bn(settings.training_classes, weights_file=settings.weights_file)
 
-preds = model.evaluate_generator(gen, settings.training_batch_count, validation_data=(val_filenames, val_gen), validation_steps=settings.validation_batch_count)
+preds = model.fit_generator(gen, settings.training_batch_count, validation_data=val_gen, validation_steps=settings.validation_batch_count, verbose=1)
 
-compute_results(filenames, preds)
+compute_results(filenames, preds, 'training_results.csv')
