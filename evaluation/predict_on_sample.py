@@ -5,11 +5,11 @@ import pdb
 from models.model import vgg16bn
 import numpy as np
 import pdb
-from config import SampleTrainingSettings
+from config import SettingsWithValidation
 
-settings = SampleTrainingSettings(batch_size=40)
+settings = SettingsWithValidation("data/train-jpg", "data/sample/valid", batch_size=40)
 filenames, gen = evaluation_data(settings)
-model = vgg16bn(settings.training_classes, weights_file=settings.weights_file)
+model = vgg16bn(settings.training_classes, weights_file="weights/weights.09-5.15.hdf5")
 
 preds = model.predict_generator(gen, settings.training_batch_count, verbose=1)
 compute_results(filenames, preds)

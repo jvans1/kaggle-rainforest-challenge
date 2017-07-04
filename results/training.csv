@@ -1,0 +1,880 @@
+train_28872, artisinal_mine bare_ground clear conventional_mine habitation partly_cloudy primary road water, artisinal_mine partly_cloudy primary water
+train_29642, bare_ground blooming clear cultivation partly_cloudy, agriculture clear primary selective_logging
+train_1219, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, partly_cloudy primary
+train_29544, blooming blow_down clear cultivation habitation primary selective_logging, blooming clear primary
+train_1154, bare_ground blooming clear partly_cloudy primary, agriculture clear cultivation primary water
+train_1329, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, clear primary water
+train_3113, artisinal_mine bare_ground blooming clear conventional_mine cultivation habitation partly_cloudy primary road water, agriculture cultivation haze primary road water
+train_2317, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary water
+train_248, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_39617, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary slash_burn
+train_25764, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine partly_cloudy primary road water
+train_27177, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine bare_ground clear habitation primary road water
+train_3270, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_1331, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging slash_burn, agriculture cultivation partly_cloudy primary road
+train_26970, bare_ground blooming clear cultivation habitation primary road selective_logging water, artisinal_mine clear primary road water
+train_2305, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road water
+train_28156, agriculture artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary road water
+train_785, bare_ground blooming blow_down clear cloudy conventional_mine partly_cloudy primary selective_logging slash_burn, agriculture cultivation partly_cloudy primary
+train_28221, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, blooming clear primary
+train_766, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary road
+train_1228, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary road
+train_2051, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear cultivation habitation primary road
+train_31081, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, blooming clear primary
+train_1197, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture cultivation habitation partly_cloudy primary road
+train_693, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear water
+train_31246, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_29268, bare_ground blooming blow_down clear conventional_mine cultivation partly_cloudy selective_logging slash_burn, blooming clear primary
+train_1318, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, partly_cloudy primary
+train_1043, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear habitation primary road
+train_26898, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary selective_logging
+train_1407, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation primary water
+train_381, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary road
+train_10771, blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, bare_ground clear primary water
+train_1045, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary road water
+train_39638, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, agriculture clear cultivation habitation primary road slash_burn
+train_225, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation habitation primary road
+train_371, bare_ground blooming clear partly_cloudy primary slash_burn, clear primary
+train_287, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn water, partly_cloudy primary
+train_29756, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary water
+train_4626, cloudy, cloudy
+train_2268, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear habitation primary road
+train_2979, bare_ground blooming blow_down cloudy cultivation habitation haze partly_cloudy primary road selective_logging, haze primary
+train_11010, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn water, bare_ground clear primary
+train_1280, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture cultivation partly_cloudy primary
+train_30969, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary road water
+train_29743, bare_ground blooming clear cultivation partly_cloudy slash_burn, blooming clear primary
+train_3207, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_2875, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture habitation partly_cloudy primary road
+train_1441, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture cultivation partly_cloudy primary
+train_974, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear primary road water
+train_27352, bare_ground blooming clear conventional_mine cultivation partly_cloudy slash_burn, blooming clear cultivation primary
+train_4038, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy
+train_244, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear primary
+train_10925, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, bare_ground clear road
+train_3265, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_3796, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_26012, bare_ground blooming blow_down clear cultivation habitation primary selective_logging slash_burn water, artisinal_mine clear primary water
+train_1469, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_3316, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_800, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture haze primary
+train_3344, blooming blow_down cloudy cultivation habitation haze partly_cloudy primary road selective_logging, haze primary
+train_28500, bare_ground blooming clear partly_cloudy primary, clear cultivation primary road selective_logging
+train_762, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear habitation primary road
+train_1166, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear primary water
+train_2435, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture cultivation partly_cloudy primary
+train_1237, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation primary road
+train_10924, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, bare_ground clear primary selective_logging slash_burn water
+train_12563, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn water, artisinal_mine bare_ground clear cultivation primary water
+train_2250, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation primary water
+train_229, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary
+train_1266, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture partly_cloudy primary
+train_28268, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, blooming clear primary
+train_25480, blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, blooming clear primary
+train_29964, blooming clear cultivation partly_cloudy primary selective_logging, blooming clear primary
+train_322, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, clear primary road water
+train_26391, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, blooming partly_cloudy primary
+train_1317, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture cultivation partly_cloudy primary
+train_26245, artisinal_mine bare_ground blooming clear cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary road water
+train_701, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary water
+train_4717, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_231, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_31790, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, clear primary road selective_logging
+train_27999, artisinal_mine bare_ground blooming clear cloudy conventional_mine habitation partly_cloudy road water, artisinal_mine clear primary water
+train_4263, bare_ground blooming blow_down cloudy cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_1176, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, agriculture cultivation habitation partly_cloudy primary road
+train_1179, blooming blow_down clear cultivation habitation primary road selective_logging, partly_cloudy primary road
+train_27247, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, artisinal_mine partly_cloudy primary water
+train_324, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary water
+train_786, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation primary
+train_3577, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_29099, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine habitation partly_cloudy road selective_logging water, artisinal_mine clear primary
+train_26869, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, blooming clear primary
+train_31149, bare_ground blooming clear conventional_mine cultivation partly_cloudy selective_logging slash_burn water, blooming clear primary
+train_246, bare_ground blooming clear partly_cloudy, clear primary
+train_1108, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road
+train_4258, bare_ground blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_1240, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_31137, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, clear primary selective_logging
+train_31305, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary road water
+train_1384, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture haze primary water
+train_1247, blooming clear cultivation partly_cloudy primary selective_logging water, partly_cloudy primary water
+train_1012, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear cultivation primary road water
+train_802, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, agriculture clear cultivation habitation primary
+train_222, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear cultivation habitation primary road water
+train_3259, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, haze primary
+train_858, bare_ground blooming blow_down clear conventional_mine haze partly_cloudy slash_burn, agriculture clear primary road
+train_304, bare_ground blooming blow_down clear cloudy cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear primary
+train_24592, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, clear primary selective_logging
+train_1016, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, clear primary road
+train_3146, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, haze primary
+train_250, blooming clear partly_cloudy primary, clear primary
+train_349, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary
+train_851, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn, agriculture clear cultivation primary road
+train_2438, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture clear habitation primary road
+train_12082, blooming clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, bare_ground clear primary
+train_2798, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, clear habitation primary road water
+train_24901, bare_ground blooming blow_down clear conventional_mine cultivation partly_cloudy selective_logging slash_burn, clear primary selective_logging
+train_2155, artisinal_mine bare_ground blooming clear conventional_mine cultivation habitation primary road water, agriculture clear cultivation primary
+train_4334, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_28456, bare_ground blooming clear cultivation haze partly_cloudy slash_burn, clear primary selective_logging
+train_1177, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, partly_cloudy primary
+train_2054, bare_ground blooming clear partly_cloudy primary, agriculture clear cultivation primary
+train_316, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary
+train_1287, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary road
+train_1101, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear water
+train_28541, bare_ground blooming clear haze partly_cloudy primary, agriculture cultivation partly_cloudy primary road selective_logging
+train_1389, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary road water
+train_11580, artisinal_mine bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground clear primary water
+train_29746, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, clear primary selective_logging
+train_3216, artisinal_mine bare_ground blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, haze primary
+train_4641, clear primary, cloudy
+train_1054, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_1440, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, partly_cloudy primary
+train_1094, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture cultivation partly_cloudy primary
+train_856, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture partly_cloudy primary
+train_770, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary road
+train_269, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, clear primary
+train_30196, bare_ground blooming clear partly_cloudy primary slash_burn, clear primary selective_logging water
+train_230, bare_ground blooming conventional_mine cultivation habitation partly_cloudy primary road water, agriculture bare_ground habitation partly_cloudy primary road
+train_3009, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road
+train_24568, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear cultivation primary road selective_logging
+train_11731, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground clear primary
+train_2339, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_1165, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary road water
+train_3645, artisinal_mine blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_256, bare_ground blooming clear partly_cloudy primary, agriculture clear cultivation primary
+train_26163, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, blooming clear primary
+train_4488, artisinal_mine bare_ground blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, cloudy
+train_3423, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, haze primary
+train_3268, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture haze primary
+train_866, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear habitation primary road
+train_26945, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, artisinal_mine bare_ground clear water
+train_739, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear habitation primary
+train_26628, artisinal_mine bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary water
+train_1264, bare_ground blooming blow_down clear conventional_mine cultivation habitation haze primary road, partly_cloudy primary
+train_299, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary
+train_29942, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, clear primary road selective_logging
+train_2807, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, agriculture clear habitation primary road water
+train_27057, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_2436, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear cultivation habitation primary road
+train_1159, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear cultivation primary road
+train_245, bare_ground blooming clear conventional_mine cultivation partly_cloudy selective_logging slash_burn water, blooming clear primary
+train_241, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture haze primary road
+train_30675, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn, clear primary road selective_logging
+train_4534, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_1173, bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_2143, bare_ground blooming clear partly_cloudy primary, agriculture clear cultivation primary water
+train_295, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, clear primary water
+train_4303, blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_2820, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear habitation primary road
+train_26135, bare_ground blooming blow_down clear cultivation habitation primary selective_logging, blooming clear primary
+train_957, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear habitation primary road
+train_11102, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear water
+train_25075, agriculture blooming clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary water
+train_27687, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture artisinal_mine clear primary
+train_26578, blooming clear conventional_mine cultivation habitation primary selective_logging slash_burn water, artisinal_mine clear primary road
+train_4834, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy
+train_2452, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation primary
+train_10423, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground clear habitation primary water
+train_1239, agriculture artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary
+train_333, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear primary road
+train_1419, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, clear primary road water
+train_1110, bare_ground blooming clear partly_cloudy primary, partly_cloudy primary
+train_291, bare_ground blooming clear conventional_mine haze partly_cloudy slash_burn, agriculture clear primary road
+train_4603, artisinal_mine blooming cloudy conventional_mine habitation haze partly_cloudy road water, cloudy
+train_30802, bare_ground blooming blow_down clear conventional_mine cultivation partly_cloudy selective_logging slash_burn water, clear primary road selective_logging
+train_10295, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture bare_ground clear primary road
+train_2472, bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_25874, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, artisinal_mine clear primary water
+train_280, bare_ground blooming clear partly_cloudy primary, partly_cloudy primary
+train_25051, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary water
+train_3452, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_355, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary
+train_3922, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, cloudy
+train_1141, agriculture bare_ground blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn water, clear primary water
+train_2765, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation habitation primary road
+train_1216, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn water, clear primary water
+train_39391, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, agriculture bare_ground clear cultivation primary slash_burn
+train_3932, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine haze partly_cloudy selective_logging water, cloudy
+train_362, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, clear primary water
+train_11246, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear
+train_2060, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation habitation primary water
+train_725, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture habitation partly_cloudy primary
+train_30337, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, blooming clear primary
+train_1129, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture cultivation partly_cloudy primary road
+train_223, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary
+train_319, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn, bare_ground clear road
+train_1195, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear habitation primary road
+train_24746, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine haze primary water
+train_721, agriculture artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, agriculture partly_cloudy primary road
+train_4026, bare_ground blooming blow_down cloudy cultivation habitation haze partly_cloudy primary road selective_logging, cloudy
+train_253, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road
+train_26095, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary water
+train_247, blooming clear partly_cloudy primary, agriculture clear cultivation habitation primary road selective_logging
+train_4809, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_24776, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary water
+train_27711, bare_ground blooming clear partly_cloudy primary, clear primary selective_logging
+train_4116, blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging, cloudy
+train_30867, bare_ground blooming conventional_mine cultivation habitation primary selective_logging slash_burn water, artisinal_mine clear primary water
+train_3263, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, haze primary
+train_263, blooming clear cultivation partly_cloudy primary slash_burn, agriculture clear primary
+train_2213, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear cultivation primary road
+train_4758, blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_2071, bare_ground blooming clear partly_cloudy primary, agriculture clear cultivation primary
+train_28418, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary road selective_logging
+train_2217, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary
+train_1034, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation primary road
+train_24483, bare_ground blooming clear cloudy conventional_mine cultivation haze partly_cloudy selective_logging slash_burn water, clear primary road selective_logging
+train_3630, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, haze primary
+train_1117, bare_ground blooming clear haze partly_cloudy, agriculture clear cultivation primary road water
+train_876, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear cultivation primary
+train_264, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary
+train_715, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary road water
+train_25199, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, artisinal_mine clear primary water
+train_2881, bare_ground blooming blow_down clear cultivation habitation primary selective_logging slash_burn, agriculture habitation partly_cloudy primary
+train_826, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture partly_cloudy primary road
+train_3835, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy
+train_2073, bare_ground blooming clear cultivation partly_cloudy slash_burn, agriculture clear cultivation primary
+train_258, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear habitation primary road
+train_2270, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn, clear cultivation habitation primary road
+train_335, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary
+train_27228, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn water, clear primary selective_logging
+train_303, blooming clear partly_cloudy primary, agriculture clear primary
+train_370, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear habitation primary road
+train_1066, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, agriculture clear cultivation primary water
+train_4470, blooming cloudy, cloudy
+train_12139, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, bare_ground clear primary road water
+train_2130, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation primary road
+train_4359, bare_ground blooming cloudy, cloudy
+train_25641, bare_ground blooming clear partly_cloudy primary, clear primary road selective_logging
+train_233, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary water
+train_1112, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary water
+train_2523, artisinal_mine bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear habitation primary road
+train_1328, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture partly_cloudy primary road
+train_38931, bare_ground blooming blow_down clear cultivation habitation primary selective_logging, clear primary slash_burn water
+train_2667, agriculture artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture artisinal_mine clear cultivation habitation primary road water
+train_749, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear primary road
+train_26909, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear cultivation primary road selective_logging
+train_1436, blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn water, artisinal_mine clear primary water
+train_12127, bare_ground blooming clear cultivation partly_cloudy selective_logging slash_burn water, bare_ground clear primary
+train_2999, blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_26808, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture artisinal_mine clear cultivation primary water
+train_1136, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, clear primary road water
+train_4394, artisinal_mine bare_ground blooming cloudy conventional_mine habitation haze partly_cloudy road water, cloudy
+train_29605, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, blooming clear primary
+train_29222, bare_ground blooming clear cultivation partly_cloudy slash_burn, blooming partly_cloudy primary
+train_11061, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, bare_ground clear primary road water
+train_27484, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary water
+train_1206, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear habitation primary road water
+train_4766, bare_ground blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_28821, bare_ground blooming clear partly_cloudy primary slash_burn, blooming clear primary
+train_2278, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear cultivation primary water
+train_3445, agriculture artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture haze water
+train_240, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, agriculture clear primary road
+train_4587, artisinal_mine blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_1225, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, partly_cloudy primary
+train_696, bare_ground blooming blow_down clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, agriculture clear cultivation primary road selective_logging
+train_25123, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, blooming partly_cloudy primary selective_logging
+train_32077, bare_ground blooming clear conventional_mine cultivation partly_cloudy slash_burn, blooming clear primary
+train_1090, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary water
+train_843, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture clear primary road
+train_31496, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, blooming clear primary
+train_275, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary
+train_4656, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_2484, blooming blow_down clear cultivation habitation primary road selective_logging, cultivation habitation partly_cloudy primary road
+train_830, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary
+train_26020, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, clear primary road selective_logging
+train_2672, blooming clear cultivation habitation primary road selective_logging, clear cultivation habitation primary road water
+train_1208, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear primary water
+train_1210, artisinal_mine bare_ground blooming clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road water, partly_cloudy primary
+train_2928, blooming blow_down clear cultivation habitation primary road selective_logging, clear habitation primary road water
+train_28782, blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, artisinal_mine clear primary water
+train_2449, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary road
+train_3684, artisinal_mine bare_ground blooming clear cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_10886, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground cultivation partly_cloudy primary
+train_3561, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze water
+train_11783, artisinal_mine bare_ground clear cloudy conventional_mine habitation partly_cloudy road water, bare_ground clear primary
+train_271, bare_ground blooming clear partly_cloudy, clear primary
+train_890, blooming clear primary, agriculture clear primary
+train_1376, artisinal_mine bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture partly_cloudy primary road
+train_1357, blooming clear partly_cloudy primary, partly_cloudy primary
+train_228, artisinal_mine bare_ground blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, agriculture haze primary road water
+train_2052, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary
+train_266, bare_ground blooming blow_down clear conventional_mine cultivation partly_cloudy slash_burn, clear cultivation habitation primary
+train_267, bare_ground blooming clear partly_cloudy primary slash_burn, partly_cloudy primary
+train_3760, blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_1404, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_996, blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn water, partly_cloudy primary road
+train_272, blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary road
+train_1370, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, partly_cloudy primary
+train_688, artisinal_mine blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, agriculture haze primary road
+train_238, bare_ground blooming clear partly_cloudy primary, clear primary
+train_29289, bare_ground blooming clear partly_cloudy primary, clear primary road selective_logging
+train_292, agriculture clear habitation partly_cloudy primary water, agriculture partly_cloudy primary
+train_991, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear primary road
+train_2454, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation habitation primary road
+train_11897, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture bare_ground partly_cloudy primary road
+train_279, bare_ground blooming clear partly_cloudy, clear cultivation primary
+train_2665, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear habitation primary water
+train_29267, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, clear primary selective_logging
+train_29683, bare_ground blooming clear partly_cloudy primary, clear primary road selective_logging
+train_12718, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear primary water
+train_28611, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary road selective_logging
+train_1184, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture haze primary water
+train_348, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, clear primary
+train_2829, bare_ground blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn water, agriculture clear cultivation habitation primary
+train_311, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_2246, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear habitation primary road
+train_26714, bare_ground blooming blow_down clear conventional_mine cultivation partly_cloudy slash_burn, agriculture blooming clear cultivation primary slash_burn
+train_1065, blooming clear cultivation primary water, partly_cloudy primary water
+train_1254, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road water
+train_239, agriculture blooming clear conventional_mine habitation partly_cloudy road selective_logging slash_burn water, bare_ground clear primary water
+train_3532, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture habitation haze primary road
+train_2972, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, clear cultivation habitation primary road
+train_982, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road
+train_780, blooming clear primary, agriculture clear cultivation primary
+train_2783, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road
+train_2254, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture cultivation haze primary road
+train_10838, blooming blow_down clear cultivation habitation primary selective_logging, bare_ground clear cultivation primary
+train_27192, bare_ground blooming clear cultivation partly_cloudy slash_burn, blooming clear primary
+train_11098, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, agriculture bare_ground clear primary
+train_31625, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear primary selective_logging
+train_736, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, agriculture clear cultivation habitation primary road
+train_29281, clear primary, blooming clear primary
+train_3229, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_27581, bare_ground blooming blow_down clear cultivation habitation primary selective_logging, blooming clear primary
+train_11866, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear primary
+train_1235, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road
+train_1249, bare_ground blooming blow_down clear cultivation habitation primary selective_logging, agriculture partly_cloudy primary road
+train_12450, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy selective_logging slash_burn, bare_ground clear primary
+train_2183, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear cultivation primary water
+train_716, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture partly_cloudy primary
+train_4723, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_2306, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, clear habitation water
+train_12706, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear conventional_mine primary road
+train_1291, blooming clear cultivation habitation primary road water, partly_cloudy primary
+train_29757, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_1300, blooming clear cultivation habitation primary road selective_logging water, partly_cloudy primary water
+train_4349, blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, cloudy
+train_4013, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging, cloudy
+train_26232, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_2252, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation primary selective_logging
+train_25290, blooming blow_down clear cultivation habitation primary selective_logging, clear primary road selective_logging
+train_249, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_2095, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, clear cultivation primary
+train_3394, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_356, bare_ground blooming clear cultivation partly_cloudy, clear primary
+train_262, blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, clear cultivation primary
+train_12314, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground clear primary
+train_1191, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary road
+train_3071, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_2309, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear habitation primary road
+train_875, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear primary road
+train_12022, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, bare_ground clear primary water
+train_11815, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture bare_ground haze primary road
+train_2614, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation habitation primary road
+train_38594, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, agriculture clear habitation primary slash_burn
+train_376, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary
+train_3975, artisinal_mine blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, cloudy
+train_27590, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary selective_logging
+train_3066, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture haze primary water
+train_30474, bare_ground blooming clear partly_cloudy primary, clear primary road selective_logging
+train_3610, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary
+train_2083, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture cultivation habitation partly_cloudy primary road
+train_30443, blooming clear partly_cloudy primary, blooming clear primary
+train_1241, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear primary road
+train_30494, blooming clear partly_cloudy primary, blooming clear primary
+train_2524, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear habitation primary road
+train_1073, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture partly_cloudy primary road
+train_2319, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation primary road
+train_3857, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_2112, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary road
+train_2310, bare_ground blooming clear partly_cloudy primary, clear habitation primary
+train_28109, bare_ground blooming clear partly_cloudy, clear primary selective_logging
+train_40446, bare_ground blooming blow_down clear partly_cloudy primary selective_logging slash_burn, clear primary slash_burn water
+train_236, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, clear primary
+train_3258, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary
+train_372, bare_ground blooming clear partly_cloudy slash_burn, clear primary
+train_2517, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear cultivation primary road
+train_10858, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, bare_ground clear primary
+train_2754, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, clear cultivation habitation primary water
+train_1181, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, clear primary road selective_logging
+train_4476, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, cloudy
+train_286, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture artisinal_mine clear primary water
+train_26332, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_12185, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, bare_ground clear primary water
+train_1340, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture artisinal_mine clear cultivation habitation primary water
+train_288, agriculture bare_ground blooming clear conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn water, clear primary water
+train_977, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road water
+train_2238, bare_ground blooming blow_down clear cultivation habitation primary selective_logging slash_burn, agriculture clear cultivation primary slash_burn
+train_1162, blooming clear cultivation partly_cloudy primary selective_logging, partly_cloudy primary water
+train_3232, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture cultivation haze primary
+train_2087, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation primary
+train_283, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, partly_cloudy primary water
+train_276, bare_ground blooming clear cultivation partly_cloudy slash_burn, partly_cloudy primary
+train_28878, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, blooming clear primary
+train_2496, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary water
+train_26748, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn water, clear primary selective_logging
+train_1305, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary road
+train_2338, blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary water
+train_336, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary
+train_293, blooming clear partly_cloudy primary, clear primary water
+train_31420, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary water
+train_4414, artisinal_mine bare_ground blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, cloudy
+train_354, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, clear primary
+train_1178, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear habitation primary road
+train_29576, bare_ground blooming blow_down clear cultivation partly_cloudy slash_burn, blooming clear primary
+train_12054, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, bare_ground clear road
+train_1091, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_1046, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_30024, artisinal_mine bare_ground blooming clear cloudy conventional_mine habitation partly_cloudy road water, artisinal_mine partly_cloudy primary water
+train_357, blooming clear partly_cloudy primary, clear primary
+train_3930, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_30072, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, blooming clear primary
+train_10432, artisinal_mine bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, bare_ground clear
+train_1480, bare_ground blooming blow_down clear cloudy conventional_mine haze partly_cloudy selective_logging slash_burn, clear primary water
+train_4293, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_27504, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary water
+train_831, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear primary
+train_1123, artisinal_mine bare_ground blooming clear conventional_mine cultivation habitation primary road water, clear habitation primary road
+train_364, blooming blow_down clear cultivation habitation primary road selective_logging, clear primary
+train_366, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn, clear primary water
+train_294, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary road
+train_38995, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation primary slash_burn
+train_29778, bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, artisinal_mine clear primary
+train_1344, cloudy road, partly_cloudy primary
+train_2335, bare_ground blooming blow_down clear cloudy cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation habitation primary
+train_261, bare_ground blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn water, agriculture clear primary
+train_767, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road
+train_3065, bare_ground blooming blow_down clear cultivation habitation primary selective_logging slash_burn, agriculture cultivation habitation partly_cloudy primary road
+train_1106, blooming blow_down clear cultivation habitation primary selective_logging, agriculture clear habitation primary road
+train_27694, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, clear primary road selective_logging
+train_1284, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, partly_cloudy primary
+train_30545, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, clear primary selective_logging
+train_4051, artisinal_mine blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, cloudy
+train_1350, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_1019, bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_10525, bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture bare_ground clear road
+train_2780, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, agriculture clear cultivation habitation primary
+train_3613, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy
+train_2606, bare_ground blooming clear partly_cloudy primary slash_burn, agriculture clear habitation primary water
+train_27457, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, artisinal_mine clear primary water
+train_3054, artisinal_mine bare_ground blooming clear conventional_mine cultivation habitation partly_cloudy primary road water, agriculture clear cultivation habitation primary road
+train_10992, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, bare_ground clear primary
+train_3305, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_2090, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary
+train_769, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture habitation partly_cloudy primary
+train_2248, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear habitation primary road
+train_1388, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road water
+train_2201, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary road
+train_30887, bare_ground blooming clear conventional_mine cultivation partly_cloudy selective_logging slash_burn, blooming clear primary
+train_29914, bare_ground blooming clear conventional_mine cultivation partly_cloudy slash_burn, blooming partly_cloudy primary
+train_3208, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary
+train_2995, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, habitation partly_cloudy primary water
+train_314, artisinal_mine bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear primary road
+train_1364, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation primary water
+train_1233, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging, agriculture partly_cloudy primary
+train_2299, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary
+train_28663, bare_ground blooming clear partly_cloudy primary, agriculture blooming clear cultivation primary
+train_29152, bare_ground blooming clear partly_cloudy, clear primary selective_logging
+train_3228, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, habitation haze primary water
+train_1188, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear cultivation primary road
+train_29669, artisinal_mine bare_ground blooming clear cloudy conventional_mine habitation partly_cloudy road selective_logging water, artisinal_mine clear water
+train_27980, agriculture artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine partly_cloudy primary road water
+train_1417, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, clear primary water
+train_326, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary
+train_4094, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_2207, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation primary
+train_2480, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture cultivation partly_cloudy primary
+train_25906, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, blooming clear primary
+train_28380, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, blooming clear primary
+train_265, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_375, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary
+train_813, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary
+train_1011, blooming clear cultivation partly_cloudy slash_burn, clear primary road water
+train_1289, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary water
+train_3321, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_10976, bare_ground blooming clear cultivation habitation primary selective_logging slash_burn water, bare_ground habitation partly_cloudy primary
+train_11938, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, bare_ground clear primary
+train_12762, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, bare_ground partly_cloudy primary water
+train_2986, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation habitation primary water
+train_1196, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear water
+train_2059, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation primary
+train_1078, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_1393, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary road water
+train_29725, blooming clear partly_cloudy primary, agriculture clear cultivation primary selective_logging
+train_1288, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, clear primary water
+train_750, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture clear primary water
+train_1041, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture habitation partly_cloudy primary road
+train_1139, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary
+train_744, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear habitation primary road
+train_25675, bare_ground blooming clear partly_cloudy primary, clear primary road selective_logging
+train_1382, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_2467, agriculture bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn water, agriculture cultivation partly_cloudy primary road
+train_10654, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, bare_ground clear primary
+train_1170, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear habitation primary road
+train_30706, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_811, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear habitation primary
+train_313, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary water
+train_793, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary road
+train_329, bare_ground blooming clear partly_cloudy slash_burn, clear primary road water
+train_25328, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary water
+train_243, bare_ground blooming clear partly_cloudy primary, clear primary
+train_1097, bare_ground blooming blow_down clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, clear primary water
+train_25045, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture artisinal_mine clear primary road water
+train_3240, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_25334, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, clear primary road selective_logging
+train_2074, bare_ground blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy road selective_logging slash_burn water, agriculture clear cultivation primary
+train_251, bare_ground blooming clear conventional_mine cultivation partly_cloudy slash_burn, clear primary
+train_27009, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, artisinal_mine clear primary
+train_814, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_282, agriculture artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, partly_cloudy primary
+train_255, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear habitation primary road
+train_690, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture haze primary road
+train_2276, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear cultivation habitation primary water
+train_2157, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear cultivation primary
+train_1144, bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, agriculture clear primary road
+train_12174, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, bare_ground blooming clear cultivation primary
+train_300, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary
+train_1474, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn water, agriculture partly_cloudy primary road
+train_879, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture haze primary
+train_1009, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear primary road
+train_10197, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear
+train_11035, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine bare_ground clear primary road water
+train_3250, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture haze primary water
+train_25257, bare_ground blooming blow_down clear conventional_mine cultivation habitation primary selective_logging slash_burn water, artisinal_mine bare_ground clear habitation primary road water
+train_3179, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_4292, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_252, bare_ground blooming clear partly_cloudy primary, clear habitation primary
+train_24882, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, haze primary selective_logging
+train_3007, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary water
+train_2663, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation habitation primary road
+train_988, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary road
+train_1077, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, habitation partly_cloudy primary road
+train_11796, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, bare_ground clear primary
+train_25785, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn water, blooming clear primary
+train_270, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging slash_burn water, agriculture clear primary road
+train_12225, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn, bare_ground clear primary selective_logging water
+train_867, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture clear habitation primary road
+train_4592, bare_ground blooming cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_235, blooming clear partly_cloudy primary, clear primary
+train_29975, bare_ground blooming clear cultivation partly_cloudy slash_burn, blooming clear primary
+train_2244, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear cultivation habitation primary road
+train_24464, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary selective_logging
+train_31330, artisinal_mine bare_ground blooming clear conventional_mine cultivation habitation primary road water, artisinal_mine clear primary water
+train_3995, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_2633, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear habitation primary water
+train_224, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary
+train_10704, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground clear primary road
+train_25837, bare_ground blooming clear partly_cloudy primary, clear primary selective_logging
+train_2325, bare_ground blooming clear cultivation habitation primary road selective_logging water, agriculture clear cultivation habitation primary water
+train_1368, blooming clear conventional_mine cultivation habitation primary selective_logging slash_burn water, partly_cloudy primary
+train_722, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary road water
+train_31275, bare_ground blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn water, clear primary selective_logging water
+train_31540, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary selective_logging
+train_1207, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture partly_cloudy primary road water
+train_733, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear primary road
+train_1081, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, partly_cloudy water
+train_3837, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_242, bare_ground blooming clear partly_cloudy primary, clear primary
+train_882, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture partly_cloudy primary
+train_232, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary
+train_11870, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture bare_ground clear cultivation primary road
+train_809, blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary road
+train_10429, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, bare_ground clear cultivation primary
+train_3379, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_1337, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, clear primary selective_logging water
+train_1087, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear primary road slash_burn
+train_2973, artisinal_mine bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road
+train_29779, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine habitation partly_cloudy road selective_logging water, artisinal_mine clear primary water
+train_11933, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture bare_ground clear habitation primary road
+train_1250, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, partly_cloudy primary
+train_29459, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, blooming clear primary
+train_3951, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, cloudy
+train_1099, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, clear primary water
+train_11543, agriculture clear habitation partly_cloudy primary water, bare_ground clear habitation primary water
+train_3543, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture haze primary water
+train_25744, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, blooming clear primary
+train_30719, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, artisinal_mine clear primary water
+train_3077, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_344, blooming clear primary, clear primary
+train_1234, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear cultivation habitation primary road
+train_1244, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary water
+train_3463, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture haze road
+train_28509, artisinal_mine bare_ground blooming clear cloudy conventional_mine habitation partly_cloudy road water, artisinal_mine clear primary water
+train_28973, artisinal_mine bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, artisinal_mine clear conventional_mine primary road water
+train_872, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture clear primary road water
+train_1131, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, partly_cloudy primary
+train_3815, cloudy habitation haze partly_cloudy primary road water, cloudy
+train_3397, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, haze primary
+train_1186, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_728, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation habitation primary road slash_burn
+train_3365, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, haze primary
+train_30837, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary water
+train_3501, blooming blow_down clear cultivation habitation primary road selective_logging, habitation haze primary water
+train_2469, blooming blow_down clear cultivation habitation primary road selective_logging, agriculture cultivation partly_cloudy primary
+train_25836, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, clear primary selective_logging
+train_1102, blooming clear cultivation habitation partly_cloudy primary selective_logging water, agriculture clear habitation primary road
+train_720, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, agriculture clear cultivation habitation primary
+train_883, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear primary
+train_2497, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture cultivation partly_cloudy primary road
+train_1290, bare_ground blooming clear haze partly_cloudy, clear primary water
+train_29941, artisinal_mine bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear habitation primary road water
+train_3534, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_318, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn water, clear primary
+train_27257, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary selective_logging
+train_29265, bare_ground blooming clear conventional_mine cultivation partly_cloudy slash_burn, clear primary selective_logging
+train_2502, blooming clear partly_cloudy primary, agriculture clear cultivation primary slash_burn
+train_29228, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture blooming clear primary
+train_369, bare_ground blooming blow_down clear cloudy conventional_mine cultivation haze partly_cloudy slash_burn, agriculture clear cultivation habitation primary
+train_1135, bare_ground blooming clear cloudy conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, clear primary water
+train_27487, bare_ground blooming clear haze partly_cloudy, blooming clear primary
+train_30267, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture artisinal_mine partly_cloudy primary water
+train_857, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary
+train_4003, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy
+train_345, bare_ground blooming clear haze partly_cloudy slash_burn, agriculture clear primary
+train_2322, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation primary water
+train_10474, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground haze primary water
+train_11772, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground clear habitation primary road
+train_227, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation primary
+train_26361, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, blooming clear primary
+train_1453, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture cultivation partly_cloudy primary road
+train_3171, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_2321, artisinal_mine bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture cultivation partly_cloudy primary road
+train_1401, blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation habitation primary road water
+train_1098, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture clear habitation primary road water
+train_1243, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, clear primary water
+train_11277, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, bare_ground clear primary road selective_logging
+train_237, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary road water
+train_1093, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary road
+train_4133, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, cloudy
+train_3168, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_2532, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear habitation primary road
+train_2470, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture habitation haze primary
+train_32245, bare_ground blooming clear conventional_mine cultivation partly_cloudy slash_burn, blooming clear primary
+train_841, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary
+train_11752, blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture bare_ground clear cultivation primary
+train_4007, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_11695, bare_ground blooming clear cultivation partly_cloudy slash_burn, bare_ground clear primary
+train_27589, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_11536, artisinal_mine bare_ground blooming clear cloudy conventional_mine habitation partly_cloudy primary road water, artisinal_mine bare_ground clear road water
+train_31172, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, artisinal_mine clear primary water
+train_32149, blooming blow_down clear cultivation habitation primary road selective_logging, blooming clear primary
+train_1080, artisinal_mine bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary water
+train_726, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary water
+train_3515, blooming blow_down clear cultivation habitation primary selective_logging, cultivation haze primary
+train_4127, artisinal_mine bare_ground blooming cloudy conventional_mine habitation haze partly_cloudy road water, cloudy
+train_29482, bare_ground blooming blow_down clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, agriculture blooming clear cultivation primary
+train_2710, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear habitation road
+train_804, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary road
+train_3849, blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_10931, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear
+train_4214, blooming cloudy, cloudy
+train_24712, bare_ground blooming clear cultivation partly_cloudy, clear primary road selective_logging
+train_4256, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_4438, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_3235, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture haze road
+train_2142, bare_ground blooming blow_down clear partly_cloudy primary slash_burn, clear cultivation primary
+train_753, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary
+train_4362, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_1226, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, partly_cloudy primary
+train_1338, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary water
+train_10866, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, bare_ground clear primary water
+train_2425, blooming clear cultivation slash_burn, agriculture clear habitation primary road
+train_1061, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation habitation primary road water
+train_2987, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_756, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture cultivation habitation partly_cloudy primary road
+train_3129, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary
+train_3223, bare_ground blooming blow_down cloudy cultivation habitation haze partly_cloudy primary road selective_logging, haze primary
+train_2429, blooming clear partly_cloudy primary, agriculture clear cultivation primary road
+train_1320, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture haze primary water
+train_25829, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary road selective_logging
+train_29963, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, artisinal_mine clear primary water
+train_1014, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture partly_cloudy primary road
+train_29600, bare_ground blooming clear partly_cloudy primary slash_burn, clear primary road selective_logging
+train_3481, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture haze primary road
+train_1125, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, partly_cloudy primary
+train_10309, artisinal_mine bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear primary
+train_339, bare_ground blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn, clear primary
+train_3440, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture cultivation haze primary
+train_763, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary water
+train_221, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear primary
+train_378, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary
+train_28844, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy slash_burn, blooming clear primary
+train_25934, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, artisinal_mine clear primary road water
+train_327, blooming clear partly_cloudy primary, clear primary
+train_4448, bare_ground blooming cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_28019, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, artisinal_mine clear primary road water
+train_1105, clear habitation primary road water, partly_cloudy primary
+train_30086, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear primary road selective_logging
+train_25738, blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, blooming clear primary water
+train_1032, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary road
+train_24877, artisinal_mine bare_ground blooming clear cloudy conventional_mine habitation partly_cloudy road water, artisinal_mine clear water
+train_317, bare_ground blooming clear partly_cloudy primary, clear primary
+train_38750, bare_ground blooming blow_down clear conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, agriculture clear cultivation primary slash_burn
+train_28758, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, artisinal_mine clear primary water
+train_1130, bare_ground blooming clear haze partly_cloudy primary, agriculture clear habitation primary road water
+train_1444, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear primary water
+train_816, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation primary
+train_26686, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, blooming clear primary
+train_1398, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture partly_cloudy primary road
+train_28778, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine bare_ground clear primary
+train_859, artisinal_mine bare_ground blooming clear conventional_mine cultivation habitation partly_cloudy primary road water, agriculture clear primary road
+train_27314, bare_ground blooming blow_down clear haze partly_cloudy primary selective_logging slash_burn, blooming clear primary
+train_25100, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary selective_logging slash_burn, clear primary selective_logging
+train_10888, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, bare_ground clear habitation primary road water
+train_4077, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy
+train_289, bare_ground blooming clear partly_cloudy primary, clear primary
+train_3019, bare_ground blooming blow_down clear cultivation habitation primary selective_logging, agriculture clear habitation primary
+train_30203, agriculture artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary road water
+train_30011, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary selective_logging
+train_31556, agriculture bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, artisinal_mine clear habitation primary water
+train_12589, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture bare_ground clear cultivation primary slash_burn
+train_28930, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, blooming clear primary
+train_12578, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, bare_ground partly_cloudy primary road
+train_12283, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear
+train_4372, blooming cloudy conventional_mine habitation haze partly_cloudy road selective_logging water, cloudy
+train_281, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, clear primary selective_logging
+train_1223, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, bare_ground clear primary road water
+train_350, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture clear primary road
+train_2384, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary road water
+train_1442, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, partly_cloudy primary
+train_11646, blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture bare_ground clear cultivation primary
+train_1302, agriculture artisinal_mine bare_ground blooming blow_down conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, agriculture partly_cloudy primary
+train_3424, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary water
+train_1312, bare_ground blooming clear partly_cloudy primary, partly_cloudy primary
+train_274, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary road water
+train_2698, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture clear habitation road
+train_30877, bare_ground blooming clear cultivation partly_cloudy slash_burn, blooming clear primary
+train_28408, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_1185, blooming blow_down clear cultivation primary selective_logging slash_burn, clear primary water
+train_1465, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation habitation primary road slash_burn water
+train_4205, blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging, cloudy
+train_1095, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture partly_cloudy primary
+train_278, bare_ground blooming clear cultivation haze partly_cloudy slash_burn, clear primary
+train_2044, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture cultivation habitation partly_cloudy primary
+train_301, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation primary road selective_logging water, agriculture clear primary road water
+train_3461, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, cultivation haze primary
+train_2374, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, agriculture clear cultivation primary road
+train_3564, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture haze primary
+train_4628, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy
+train_2559, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road
+train_2561, bare_ground blooming blow_down clear haze partly_cloudy slash_burn, agriculture clear cultivation habitation primary road
+train_2535, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary water
+train_3043, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_751, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road
+train_28557, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary selective_logging
+train_373, bare_ground blooming clear partly_cloudy primary selective_logging slash_burn, clear primary
+train_738, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear cultivation primary
+train_699, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear habitation primary water
+train_3398, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_39965, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, clear cultivation primary slash_burn
+train_3401, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_2605, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground habitation partly_cloudy primary road
+train_297, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation primary
+train_368, bare_ground blooming clear partly_cloudy primary, clear primary
+train_1468, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, partly_cloudy primary water
+train_2483, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear habitation primary road water
+train_1202, blooming clear partly_cloudy primary, partly_cloudy primary
+train_28732, blooming blow_down clear cultivation habitation primary selective_logging, agriculture clear cultivation primary selective_logging
+train_27164, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary water
+train_358, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear cultivation primary
+train_25950, bare_ground blooming clear haze partly_cloudy, agriculture blooming blow_down clear cultivation primary
+train_259, agriculture blooming clear cultivation haze partly_cloudy primary selective_logging water, partly_cloudy primary
+train_268, bare_ground blooming blow_down clear cloudy cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear habitation primary road
+train_30491, bare_ground blooming clear conventional_mine cultivation habitation selective_logging slash_burn water, artisinal_mine clear primary water
+train_1402, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary water
+train_2249, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation primary
+train_4788, blooming blow_down cloudy selective_logging, cloudy
+train_3413, blooming clear partly_cloudy primary, haze primary
+train_1229, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture haze primary road water
+train_3279, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary water
+train_2414, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, cultivation partly_cloudy primary slash_burn
+train_1119, artisinal_mine bare_ground blooming clear cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, agriculture clear habitation primary road
+train_2440, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture habitation haze primary
+train_1383, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear primary water
+train_25873, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary road selective_logging
+train_321, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, clear primary water
+train_4065, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, cloudy
+train_30679, bare_ground blooming blow_down clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn water, blooming clear primary road
+train_820, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, agriculture clear habitation primary road water
+train_1258, agriculture blooming clear conventional_mine habitation primary road selective_logging slash_burn water, clear primary water
+train_1132, bare_ground blooming clear conventional_mine cultivation haze partly_cloudy, clear primary road water
+train_30138, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, clear primary selective_logging
+train_27861, bare_ground blooming clear conventional_mine cultivation partly_cloudy selective_logging slash_burn, blooming clear primary
+train_1335, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary
+train_2759, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, clear habitation primary road
+train_28297, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear habitation primary road water
+train_2803, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn, agriculture clear cultivation habitation primary
+train_3569, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_380, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary
+train_31438, agriculture artisinal_mine bare_ground blooming clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear habitation primary road water
+train_31664, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, blooming clear primary water
+train_1415, artisinal_mine bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, partly_cloudy primary
+train_31233, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear primary selective_logging
+train_298, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging slash_burn water, agriculture bare_ground clear cultivation habitation primary
+train_3390, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture haze primary
+train_12658, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture bare_ground clear
+train_2300, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, blooming clear cultivation primary
+train_307, blooming blow_down clear cultivation habitation primary selective_logging, clear primary
+train_11442, agriculture bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture bare_ground clear primary road
+train_310, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn water, clear primary
+train_290, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear water
+train_338, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary
+train_1183, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, partly_cloudy primary road selective_logging
+train_3575, bare_ground blooming blow_down cloudy conventional_mine cultivation habitation haze partly_cloudy road selective_logging water, haze primary water
+train_2251, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear habitation primary road
+train_2091, bare_ground blooming clear cloudy conventional_mine cultivation haze partly_cloudy selective_logging slash_burn water, agriculture clear cultivation primary slash_burn
+train_28849, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging slash_burn water, artisinal_mine partly_cloudy primary
+train_309, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary water
+train_2485, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy selective_logging slash_burn, clear cultivation habitation primary road
+train_29461, bare_ground blooming blow_down clear cultivation habitation primary selective_logging slash_burn water, agriculture artisinal_mine clear primary
+train_1251, bare_ground blooming blow_down clear cultivation partly_cloudy slash_burn, clear primary road water
+train_3333, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, haze primary
+train_30627, bare_ground blooming blow_down clear cultivation habitation primary selective_logging, clear primary road selective_logging
+train_374, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary
+train_260, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, clear primary road water
+train_29928, agriculture artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine bare_ground clear primary water
+train_277, bare_ground blooming clear partly_cloudy primary, clear primary
+train_1420, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging, agriculture clear primary water
+train_3064, bare_ground blooming blow_down clear cloudy conventional_mine partly_cloudy slash_burn, agriculture clear habitation primary road
+train_27983, bare_ground blooming clear partly_cloudy primary, blooming clear primary
+train_31311, bare_ground blooming blow_down clear cultivation partly_cloudy primary selective_logging slash_burn, clear primary road selective_logging
+train_27161, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, artisinal_mine clear primary
+train_27689, blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, blooming clear primary
+train_296, blooming clear partly_cloudy primary, clear primary
+train_966, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear primary road
+train_1103, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, partly_cloudy primary
+train_1128, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear cultivation habitation primary road
+train_702, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road
+train_254, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging, clear primary
+train_997, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, artisinal_mine clear primary road selective_logging water
+train_1308, blooming clear primary, clear primary water
+train_998, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture cultivation partly_cloudy primary road
+train_1356, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, partly_cloudy primary
+train_379, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road
+train_27367, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, clear primary road selective_logging water
+train_3657, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, cloudy
+train_894, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, agriculture clear cultivation primary
+train_26301, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary selective_logging slash_burn, artisinal_mine clear primary water
+train_2084, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture cultivation haze primary road
+train_27635, bare_ground blooming blow_down clear conventional_mine cultivation haze partly_cloudy selective_logging slash_burn, blooming clear primary
+train_3266, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary
+train_12690, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, bare_ground clear primary water
+train_346, blooming blow_down clear cultivation habitation primary selective_logging slash_burn, clear primary
+train_26234, blooming clear cultivation partly_cloudy primary selective_logging, bare_ground clear primary road selective_logging
+train_1138, bare_ground blooming blow_down clear cultivation habitation primary road selective_logging water, agriculture partly_cloudy primary
+train_953, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture habitation partly_cloudy primary road water
+train_330, bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary selective_logging slash_burn, agriculture clear primary water
+train_2463, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, agriculture clear cultivation primary
+train_28850, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear habitation primary selective_logging
+train_29246, blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn water, clear primary selective_logging
+train_829, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, agriculture clear primary road
+train_31298, bare_ground blooming clear partly_cloudy, clear primary road selective_logging
+train_1352, bare_ground blooming clear cultivation partly_cloudy slash_burn, clear cultivation primary water
+train_1175, blooming clear conventional_mine habitation primary road selective_logging slash_burn water, partly_cloudy primary
+train_3090, bare_ground blooming blow_down clear cultivation habitation partly_cloudy primary road selective_logging slash_burn, haze primary
+train_11263, artisinal_mine bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, bare_ground clear habitation primary road
+train_3521, bare_ground blooming blow_down clear cloudy conventional_mine cultivation habitation haze partly_cloudy primary road selective_logging water, haze primary
+train_4658, artisinal_mine bare_ground blooming blow_down clear conventional_mine cultivation habitation partly_cloudy primary road selective_logging water, cloudy

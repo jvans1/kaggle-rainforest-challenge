@@ -26,9 +26,9 @@ CLASSES = [
     "water"
 ]
 
-def train_generator(settings):
+def train_generator(settings, image_processor):
     output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
-    return DirectoryIterator(settings.train_folder, output, len(settings.training_classes), settings.training_filenames, settings=settings,batch_size=settings.batch_size)
+    return DirectoryIterator(settings.train_folder, output, len(settings.training_classes),  settings.training_filenames,image_processor=image_processor, settings=settings,batch_size=settings.batch_size)
 
 def validation_generator(settings):
     output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
@@ -70,6 +70,18 @@ def images_by_classifications():
     return images
 
 
+def image_label_mapping():
+    images = {}
+    with open("/home/ubuntu/fastai/deeplearning1/nbs/amazon/train_v2.csv") as csvfile:
+        i = 0
+        reader = csv.reader(csvfile)
+        for row in reader:
+            i += 1
+            if i == 1: continue
+            images[row[0]+"."+'jpg'] = row[1].split(' ')
+    return images
+
+
 def classify_images(classifications, filename, img_format):
     images = {}
     with open(filename) as csvfile:
@@ -82,10 +94,10 @@ def classify_images(classifications, filename, img_format):
     return images
 
 
-def one_hot_to_labels(one_hot, classifications):
+def one_hot_to_labels(one_hot, classifications, averages):
     res = []
-    for present, classification in zip(one_hot, classifications):
-        if present > 0.5:
+    for present, classification, threshold in zip(one_hot, classifications, averages):
+        if present > threshold:
             res.append(classification)
 
     return ' '.join(res)
@@ -112,11 +124,12 @@ class DirectoryIterator(Iterator):
                 filename_to_binary_result_array,
                 output_size, filenames,
                  target_size=(256, 256), 
+                 image_processor = None,
                  batch_size=32, shuffle=True, seed=None,
                  settings = None,
                  follow_links=False):
         self.directory = directory
-        #  self.image_data_generator = image_data_generator
+        self.image_processor = image_processor
         self.target_size = tuple(target_size)
         self.image_shape =  target_size + (4,)
         self.settings = settings
@@ -137,8 +150,8 @@ class DirectoryIterator(Iterator):
         for i, j in enumerate(index_array):
             fname = self.filenames[j]
             x = load_to_numpy(os.path.join(self.directory, fname))
-            #  x = self.image_data_generator.random_transform(x)
-            #  x = self.image_data_generator.standardize(x)
+            if self.image_processor:
+                x = self.image_processor.random_transform(x)
             batch_x[i] = x
             if self.filename_to_binary_result_array:
                 batch_y.append(self.filename_to_binary_result_array[fname])
