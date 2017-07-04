@@ -26,7 +26,7 @@ CLASSES = [
     "water"
 ]
 
-def train_generator(settings, image_processor):
+def train_generator(settings, image_processor=None):
     output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
     return DirectoryIterator(settings.train_folder, output, len(settings.training_classes),  settings.training_filenames,image_processor=image_processor, settings=settings,batch_size=settings.batch_size)
 
