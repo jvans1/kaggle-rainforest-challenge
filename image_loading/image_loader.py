@@ -94,9 +94,13 @@ def classify_images(classifications, filename, img_format):
     return images
 
 
-def one_hot_to_labels(one_hot, classifications, averages):
+
+#arbitrary softmax thresholds values, calculated from training set
+thresholds = [0.45972371, 0.1441146, 0.10154737, 0.041092422, 0.0097038513, 0.67270833, 0.28686687, 0.063933417, 0.23502705, 0.26686081, 0.32417396, 0.27254748, 0.72714484, 0.42341909, 0.050645847, 0.027057281, 0.28689763]
+
+def one_hot_to_labels(one_hot, classifications):
     res = []
-    for present, classification, threshold in zip(one_hot, classifications, averages):
+    for present, classification, threshold in zip(one_hot, classifications, thresholds):
         if present > threshold:
             res.append(classification)
 

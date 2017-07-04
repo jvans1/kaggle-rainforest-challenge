@@ -51,10 +51,10 @@ class SettingsWithValidation():
 
 def learning_rate_scheduler(index):
     if index > 12:
-        return 0.000001
+        return 0.0000001
     elif index > 8:
+        return 0.000001
+    elif index > 5:
         return 0.00001
-    elif index > 4:
-        return 0.0001
     else:
-        return 0.001
+        return 0.0001
