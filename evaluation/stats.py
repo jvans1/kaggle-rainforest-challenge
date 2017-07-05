@@ -32,7 +32,23 @@ def compute_results_with_validation(filenames, predictions, mapping, save_to ='r
 
 
 #num records in each class sorted alphabetically
-#counts =  [12315, 339, 862, 332, 101, 28431, 2089, 100, 4547, 3660, 2697, 7261, 37513, 8071, 340, 209, 7411]
+#"agriculture"12315,
+#"artisinal_mine" 339,
+#"bare_ground"862,
+#"blooming"332,
+#"blow_down" 101,
+#"clear"28431,
+#"cloudy" 2089,
+#"conventional_mine" 100,
+#"cultivation" 4547,
+#"habitation" 3660,
+#"haze" 2697,
+#"partly_cloudy" 7261,
+#"primary" 37513,
+#"road" 8071,
+#"selective_logging" 340,
+#"slash_burn" 209,
+#"water" 7411
 
 def labels_from_predictions(predictions):
      preds = np.concatenate(np.asarray(predictions), axis=1)

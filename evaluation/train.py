@@ -16,7 +16,7 @@ gen = train_generator(settings, image_processor)
 
 val_gen = validation_generator(settings)
 model =  vgg16bn(settings.training_classes, trainable=True)
-preds =  model.fit_generator(gen, settings.training_batch_count, epochs=5, validation_data = val_gen, validation_steps=settings.validation_batch_count, callbacks=settings.callbacks)
+preds =  model.fit_generator(gen, settings.training_batch_count, epochs=15, validation_data = val_gen, validation_steps=settings.validation_batch_count, callbacks=settings.callbacks)
 
 filenames, gen = evaluation_validation_data(settings)
 preds = model.predict_generator(gen, settings.validation_batch_count, verbose=1)

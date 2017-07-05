@@ -17,7 +17,7 @@ def conv_block(prev_layer, layers, filters):
     return MaxPooling2D(pool_size=(2,2), strides=(2,2) )(prev_layer)
 
 
-def vgg16bn(output_classes, weights_file=None, include_top=True, train_conv_layers= False, trainable=True):
+def vgg16bn(output_classes, weights_file=None, include_top=True, trainable=True):
     inputs = Input(shape=(256, 256, 4))
     inps = BatchNormalization(axis=1)(inputs)
     cb = conv_block(inps, 2, 64)
@@ -27,17 +27,25 @@ def vgg16bn(output_classes, weights_file=None, include_top=True, train_conv_laye
     cb = conv_block(cb, 3, 512)
     flattened = Flatten()(cb)
 
-    dense_1 = Dense(2048, activation='relu')(flattened)
+    dense_1 = Dense(8192, activation='relu')(flattened)
     bn_dense_1 = BatchNormalization(axis=1)(dense_1)
     dropout_1 = Dropout(0.1)(bn_dense_1)
 
-    dense_2 = Dense(2048, activation='relu')(dropout_1)
+    dense_2 = Dense(8192, activation='relu')(dropout_1)
     bn_dense_2 = BatchNormalization(axis=1)(dense_2)
-    dropout_2 = Dropout(0.1)(bn_dense_2)
 
-    outs = [ Dense(1,activation='sigmoid', name=classification)(dropout_2) for classification in output_classes]
+    outs = []
+    counts =  [12315, 339, 862, 332, 101, 28431, 2089, 100, 4547, 3660, 2697, 7261, 37513, 8071, 340, 209, 7411]
+    for count, classification in zip(counts, output_classes):
+        if count < 2100:
+            out = Dense(1, activation='sigmoid', name=classification)(bn_dense_2)
+            outs.append(out)
+        else:
+            dropout_2 = Dropout(0.1)(bn_dense_2)
+            out = Dense(1, activation='sigmoid', name=classification)(bn_dense_2)
+            outs.append(out)
+
     model = Model(inputs=inputs,outputs=outs)
-    model.summary()
 
     if not trainable:
         for layer in model.layers:
