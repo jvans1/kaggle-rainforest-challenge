@@ -20,3 +20,18 @@ def linear_model(output_classes):
     model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
+def dense_model():
+    inps = Input(shape=(256, 256, 4))
+    x = BatchNormalization(axis=1)(inps)
+    x = Flatten()(inps)
+    x = Dense(1024, activation='relu')(x)
+    x = BatchNormalization(axis=1)(x)
+    x = Dense(1024, activation='relu')(x)
+    x = BatchNormalization(axis=1)(x)
+    x = Dense(1024, activation='relu')(x)
+    x = BatchNormalization(axis=1)(x)
+    x = Dense(2,activation='softmax')(x)
+
+    model = Model(inputs=inps, outputs=x)
+    return model
+

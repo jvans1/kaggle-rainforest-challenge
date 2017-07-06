@@ -26,21 +26,29 @@ CLASSES = [
     "water"
 ]
 
-def train_generator(settings, image_processor=None):
-    output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
-    return DirectoryIterator(settings.train_folder, output, len(settings.training_classes),  settings.training_filenames,image_processor=image_processor, settings=settings,batch_size=settings.batch_size)
+def train_generators(settings, image_processor=None, mapping=None):
+    if mapping is None:
+        mapping = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
+    train_gen = DirectoryIterator(
+            settings.train_folder,
+            settings.training_filenames,
+            one_hot_filename_mapping=mapping,
+            image_processor=image_processor,
+            batch_size=settings.batch_size)
+    val_gen = validation_generator(settings, mapping=mapping)
+    return train_gen, val_gen
 
-def validation_generator(settings):
-    output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
-    return DirectoryIterator(settings.validation_folder, output, len(settings.training_classes), settings.validation_filenames, settings=settings,batch_size=settings.batch_size)
+def validation_generator(settings, mapping=None):
+    if mapping is None:
+        mapping = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
+    return DirectoryIterator(settings.validation_folder, settings.validation_filenames, one_hot_filename_mapping=mapping,  batch_size=settings.batch_size)
 
 def evaluation_validation_data(settings):
     filenames = os.listdir(settings.validation_folder)
-    return filenames, DirectoryIterator(settings.validation_folder, None, len(settings.training_classes), settings.validation_filenames, settings=settings,batch_size=settings.batch_size, shuffle=False)
+    return filenames, DirectoryIterator(settings.validation_folder, None, len(settings.training_classes), settings.validation_filenames, one_hot_filename_mapping=mapping, batch_size=settings.batch_size, shuffle=False)
 
-def evaluation_data(settings):
-    filenames = os.listdir(settings.train_folder)
-    return filenames, DirectoryIterator(settings.train_folder, None, len(settings.training_classes), settings.training_filenames, batch_size=settings.batch_size, shuffle=False)
+def evaluation_data(settings, mapping=None):
+    return settings.filenames, DirectoryIterator(settings.folder, settings.filenames, one_hot_filename_mapping=mapping, batch_size=settings.batch_size, shuffle=False)
 
 def load_to_numpy(path):
     img = load_img(path)
@@ -81,8 +89,7 @@ def image_label_mapping():
             images[row[0]+"."+'jpg'] = row[1].split(' ')
     return images
 
-
-def classify_images(classifications, filename, img_format):
+def images_to_class_mapping(img_format="jpg", filename="train_v2.csv"):
     images = {}
     with open(filename) as csvfile:
         i = 0
@@ -90,9 +97,13 @@ def classify_images(classifications, filename, img_format):
         for row in reader:
             i += 1
             if i == 1: continue
-            images[row[0]+"."+img_format] = one_hot(row[1].split(' '), classifications)
+            images[row[0]+"."+img_format] = row[1].split(' ')
     return images
 
+def classify_images(classifications, filename, img_format):
+    images = {}
+    for k, v in images_to_class_mapping(img_format=img_format,filename=filename):
+        images[k] =  one_hot(row[1].split(' '), classifications)
 
 
 #arbitrary softmax thresholds values, calculated from training set
@@ -124,24 +135,25 @@ def eager_load_data(directory, result_mapping):
     return data, results
 
 class DirectoryIterator(Iterator):
-    def __init__(self, directory,
-                filename_to_binary_result_array,
-                output_size, filenames,
-                 target_size=(256, 256), 
-                 image_processor = None,
-                 batch_size=32, shuffle=True, seed=None,
-                 settings = None,
-                 follow_links=False):
+    def __init__(self,
+                directory,
+                filenames,
+                one_hot_filename_mapping=None,
+                target_size=(256, 256),
+                image_processor = None,
+                batch_size=32, shuffle=True, seed=None,
+                follow_links=False):
         self.directory = directory
         self.image_processor = image_processor
         self.target_size = tuple(target_size)
         self.image_shape =  target_size + (4,)
-        self.settings = settings
         self.filenames = filenames
         self.nb_sample = len(self.filenames)
-        self.output_size = output_size
-        self.filename_to_binary_result_array = filename_to_binary_result_array
+        self.one_hot_filename_mapping = one_hot_filename_mapping
         super(DirectoryIterator, self).__init__(self.nb_sample, batch_size, shuffle, seed)
+
+    def add_result(self, output):
+        self.accumulated_results.append(output)
 
     def next(self):
         with self.lock:
@@ -150,19 +162,18 @@ class DirectoryIterator(Iterator):
         # so it can be done in parallel
         batch_x = np.zeros((current_batch_size,) + self.image_shape, dtype=K.floatx())
         batch_y = []
-        filenames = []
         for i, j in enumerate(index_array):
             fname = self.filenames[j]
             x = load_to_numpy(os.path.join(self.directory, fname))
             if self.image_processor:
                 x = self.image_processor.random_transform(x)
             batch_x[i] = x
-            if self.filename_to_binary_result_array:
-                batch_y.append(self.filename_to_binary_result_array[fname])
+            if self.one_hot_filename_mapping:
+                res = self.one_hot_filename_mapping[fname]
+                batch_y.append(res)
 
-        if self.filename_to_binary_result_array:
-            outs = np.stack(np.asarray(batch_y), axis=1)
-            #  outs = [ np.asarray(out) for out, i in zip(outs, range(len(outs))) if i in self.settings.measure_classes_indexes ]
-            return (batch_x, list(outs))
+        if len(batch_y) > 0:
+            outs = np.asarray(batch_y)
+            return (batch_x, outs)
         else:
             return batch_x

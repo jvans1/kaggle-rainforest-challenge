@@ -1,24 +1,20 @@
-from image_loading.image_loader import evaluation_data, train_generator, classify_images
+from image_loading.image_loader import evaluation_data
+from keras.optimizers import Adam
+import pdb
 import os
-from stats import compute_results
-import pdb
-from models.model import vgg16bn
 import numpy as np
-import pdb
-from config import SampleTrainingSettings
+from config import PredictSettings
+from models.specializer import specializer
+from image_loading.utils import binary_one_hot_mapping
 
-settings = SampleTrainingSettings(batch_size=40)
+settings = PredictSettings("data/train-jpg", batch_size=64)
+mapping = binary_one_hot_mapping("cloud")
 
-filenames, gen = evaluation_data(settings)
-model = vgg16bn(settings.training_classes, weights_file='weights/weights.09-5.15.hdf5')
+filenames, gen = evaluation_data(settings, mapping=mapping)
+model = specializer("cloudy", 0.0)
+model.load_weights("weights/cloudy-sample-1")
 
-
-for layer in model.layers[-20:]:
-    layer.set_weights([weight / 5 for weight in layer.get_weights()])
-
-for index, layer in zip(range(len(model.layers)), model.layers):
-    layer.trainable = False
-
-
-preds = model.predict_generator(gen, settings.training_batch_count, verbose=1)
-compute_results(filenames, preds)
+model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
+preds = model.evaluate_generator(gen, settings.batch_count)
+print(preds)
+pdb.set_trace()

@@ -19,7 +19,7 @@ validation_files = []
 images_by_class = images_by_classifications()
 image_label_mapping = image_label_mapping()
 
-def count_labels(files):
+def count_labels(files, image_label_mapping):
     counts = {}
     for f in files:
         f = '_'.join(f.split('_')[-2:])
@@ -52,4 +52,4 @@ for f in validation_files:
     copyfile('data/train-jpg/'+f+'.jpg', 'data/sample/valid/'+f+'.jpg')
 
 
-count_labels(os.listdir('data/train-jpg'))
+count_labels(os.listdir('data/train-jpg'), image_label_mapping)

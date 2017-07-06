@@ -9,10 +9,10 @@ import numpy as np
 import pdb
 from config import SettingsWithValidation
 
-settings = SettingsWithValidation("data/train/train", "data/train/valid",batch_size=16 )
+settings = SettingsWithValidation("data/sample/train", "data/sample/valid",batch_size=16 )
 
 image_processor = ImageDataGenerator(rotation_range=180, shear_range=0.3, width_shift_range=0.2, height_shift_range=0.2, horizontal_flip=True, vertical_flip=True)
-gen = train_generator(settings, image_processor)
+gen = train_generator(settings, trainsor)
 
 val_gen = validation_generator(settings)
 model =  vgg16bn(settings.training_classes, trainable=True)

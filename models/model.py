@@ -1,4 +1,4 @@
-from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxPooling2D, ZeroPadding2D, Dropout
+from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxPooling2D, ZeroPadding2D, Dropout, GlobalAveragePooling2D
 import re
 from image_loading.image_loader import eager_load_data
 from keras.regularizers import l2
@@ -25,6 +25,7 @@ def vgg16bn(output_classes, weights_file=None, include_top=True, trainable=True)
     cb = conv_block(cb, 3, 256)
     cb = conv_block(cb, 3, 512)
     cb = conv_block(cb, 3, 512)
+
     flattened = Flatten()(cb)
 
     dense_1 = Dense(8192, activation='relu')(flattened)
@@ -46,16 +47,3 @@ def vgg16bn(output_classes, weights_file=None, include_top=True, trainable=True)
             outs.append(out)
 
     model = Model(inputs=inputs,outputs=outs)
-
-    if not trainable:
-        for layer in model.layers:
-            layer.trainable = False
-
-    if weights_file:
-        model.load_weights(weights_file)
-
-    if not include_top:
-        for i in range(24):
-            model.layers.pop()
-    model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
-    return model

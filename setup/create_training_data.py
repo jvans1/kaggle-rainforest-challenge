@@ -20,16 +20,17 @@ images_by_class = images_by_classifications()
 for classification in images_by_class.keys():
     images = images_by_class[classification]
     num_files_in_class = len(images)
-    ten_percent =  num_files_in_class / 10
-    train_files += images[ten_percent:]
-    validation_files += images[:ten_percent]
+    eighteen_percent =  num_files_in_class / 7
+    train_files += images[eighteen_percent:]
+    class_val_files = images[:eighteen_percent]
+    validation_files += class_val_files
+    print("creating " +str(len(class_val_files))+" validation files for class " +classification)
 
 tf = list(set(train_files))
 vf = list(set(validation_files))
-print("list of tf " + str(len(tf)))
+print("list of validation files " + str(len(vf)))
 for f in tf:
     copyfile('data/train-jpg/'+f+'.jpg', 'data/train/train/'+f+'.jpg')
 
 for f in vf:
     copyfile('data/train-jpg/'+f+'.jpg', 'data/train/valid/'+f+'.jpg')
-
