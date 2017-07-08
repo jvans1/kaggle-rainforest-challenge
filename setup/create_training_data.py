@@ -3,8 +3,8 @@ from shutil import copyfile, rmtree
 from importlib import import_module
 from image_loading.image_loader import images_by_classifications
 
-if not os.path.exists('data/train-jpg'):
-    raise Exception("no folder train-jpg to create training data")
+if not os.path.exists('data/train-tif-v2'):
+    raise Exception("no folder train-tif-v2 to create training data")
 
 if os.path.exists('data/train'):
     rmtree('data/train')
@@ -30,7 +30,7 @@ tf = list(set(train_files))
 vf = list(set(validation_files))
 print("list of validation files " + str(len(vf)))
 for f in tf:
-    copyfile('data/train-jpg/'+f+'.jpg', 'data/train/train/'+f+'.jpg')
+    copyfile('data/train-tif-v2/'+f+'.tif', 'data/train/train/'+f+'.tif')
 
 for f in vf:
-    copyfile('data/train-jpg/'+f+'.jpg', 'data/train/valid/'+f+'.jpg')
+    copyfile('data/train-tif-v2/'+f+'.tif', 'data/train/valid/'+f+'.tif')

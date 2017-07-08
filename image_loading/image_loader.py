@@ -1,4 +1,5 @@
 import csv
+from skimage import io
 import pdb
 from keras import backend as K
 import os
@@ -43,24 +44,11 @@ def validation_generator(settings, mapping=None):
         mapping = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
     return DirectoryIterator(settings.validation_folder, settings.validation_filenames, one_hot_filename_mapping=mapping,  batch_size=settings.batch_size)
 
-def evaluation_validation_data(settings):
-    filenames = os.listdir(settings.validation_folder)
-    return filenames, DirectoryIterator(settings.validation_folder, None, len(settings.training_classes), settings.validation_filenames, one_hot_filename_mapping=mapping, batch_size=settings.batch_size, shuffle=False)
-
 def evaluation_data(settings, mapping=None):
     return settings.filenames, DirectoryIterator(settings.folder, settings.filenames, one_hot_filename_mapping=mapping, batch_size=settings.batch_size, shuffle=False)
 
 def load_to_numpy(path):
-    img = load_img(path)
-    return img_to_array(img)
-
-def load_img(absolute_path):
-    img = Image.open(absolute_path)
-    return img
-
-def img_to_array(img):
-    x = np.asarray(img, dtype=K.floatx())
-    return x
+    return io.imread(path)
 
 def images_by_classifications():
     images = {}
@@ -89,7 +77,7 @@ def image_label_mapping():
             images[row[0]+"."+'jpg'] = row[1].split(' ')
     return images
 
-def images_to_class_mapping(img_format="jpg", filename="train_v2.csv"):
+def images_to_class_mapping(img_format="tif", filename="train_v2.csv"):
     images = {}
     with open(filename) as csvfile:
         i = 0

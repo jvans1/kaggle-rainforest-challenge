@@ -46,10 +46,10 @@ train_files = list(set(train_files))
 validation_files = list(set(validation_files))
 
 for f in train_files:
-    copyfile('data/train-jpg/'+f+'.jpg', 'data/sample/train/'+f+'.jpg')
+    copyfile('data/train-tif-v2/'+f+'.tif', 'data/sample/train/'+f+'.tif')
 
 for f in validation_files:
-    copyfile('data/train-jpg/'+f+'.jpg', 'data/sample/valid/'+f+'.jpg')
+    copyfile('data/train-tif-v2/'+f+'.tif', 'data/sample/valid/'+f+'.tif')
 
 
-count_labels(os.listdir('data/train-jpg'), image_label_mapping)
+count_labels(os.listdir('data/train-tif'), image_label_mapping)

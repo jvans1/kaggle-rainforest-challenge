@@ -1,26 +1,31 @@
-from image_loading.image_loader import train_generator, classify_images, validation_generator, evaluation_validation_data
+from keras.optimizers import Adam
+from keras.callbacks import LearningRateScheduler
+import pdb
 from keras.preprocessing.image import ImageDataGenerator
-import os
-import datetime
-from stats import compute_results_with_validation
-import pdb
-from models.model import vgg16bn
-import numpy as np
-import pdb
-from config import SettingsWithValidation
+from config import Settings
+from image_loading.image_loader import train_generators
+from models.specializer import specializer
+from models.model import simple_cnn
+from image_loading.utils import binary_one_hot_mapping
 
-settings = SettingsWithValidation("data/sample/train", "data/sample/valid",batch_size=16 )
+condition = "partly_cloudy"
+folder = "data/samples/"+condition
+settings = Settings(folder, model_type=condition, batch_size=20)
+img_gen = ImageDataGenerator(rotation_range=180, shear_range=0.3, width_shift_range=0.2, height_shift_range=0.2, horizontal_flip=True, vertical_flip=True)
+mapping = binary_one_hot_mapping(condition)
 
-image_processor = ImageDataGenerator(rotation_range=180, shear_range=0.3, width_shift_range=0.2, height_shift_range=0.2, horizontal_flip=True, vertical_flip=True)
-gen = train_generator(settings, trainsor)
+gen, val_gen = train_generators(settings, mapping=mapping, image_processor=img_gen)
 
-val_gen = validation_generator(settings)
-model =  vgg16bn(settings.training_classes, trainable=True)
-preds =  model.fit_generator(gen, settings.training_batch_count, epochs=15, validation_data = val_gen, validation_steps=settings.validation_batch_count, callbacks=settings.callbacks)
+model = specializer('partly_cloudy', 0.0)
 
-filenames, gen = evaluation_validation_data(settings)
-preds = model.predict_generator(gen, settings.validation_batch_count, verbose=1)
+#  def learning_rate_scheduler(index):
+    #  if index > 2:
+        #  return 0.001
+    #  else:
+        #  return 0.01
 
-output = classify_images(settings.training_classes, 'train_v2.csv', 'jpg')
-current_time = str(datetime.datetime.now())
-compute_results_with_validation(filenames, preds,output, save_to="training-"+current_time+".csv")
+#  learning_rate_annealer = LearningRateScheduler(learning_rate_scheduler)
+callbacks = settings.callbacks# + [learning_rate_annealer]
+
+model.compile(optimizer=Adam(lr=0.0001), loss='binary_crossentropy', metrics=['accuracy'])
+model.fit_generator(gen, settings.training_batch_count, epochs=3, validation_data = val_gen, validation_steps=settings.validation_batch_count, callbacks=callbacks)

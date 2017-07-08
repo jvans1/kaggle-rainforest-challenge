@@ -13,4 +13,3 @@ for klass in CLASSES:
         os.mkdir('data/'+klass)
         os.mkdir('data/'+klass+'/valid')
         os.mkdir('data/'+klass+'/train')
-

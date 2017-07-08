@@ -12,3 +12,4 @@ train_conv_output_array_results
 valid_conv_output_array
 valid_conv_output_array_results
 data
+models/partly_cloudy/1/partly_cloudy-weights.08-0.50.hdf5

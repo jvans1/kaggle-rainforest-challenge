@@ -1,5 +1,4 @@
-from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxPooling2D, ZeroPadding2D, Dropout, GlobalAveragePooling2D
-import re
+from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxPooling2D, ZeroPadding2D, Dropout, AveragePooling2D
 from image_loading.image_loader import eager_load_data
 from keras.regularizers import l2
 from image_loading.utils import save_array, load_array
@@ -9,41 +8,20 @@ import numpy as np
 from keras.applications import VGG16
 import pdb
 from keras.models import Model
+def simple_cnn():
+    inps = Input(shape=(256, 256, 4))
+    x = conv_block(inps, 1, 32)
+    x = BatchNormalization(axis=1)(x)
+    x = Flatten()(x)
+    x = Dense(1024, activation='relu')(x)
+    x = BatchNormalization(axis=1)(x)
+    out = Dense(2,activation='softmax')(x)
+
+    model = Model(inputs=inps, outputs=out)
+    return model
 
 def conv_block(prev_layer, layers, filters):
     for i in range(layers):
         conv = Conv2D(filters, 3, padding='same', strides=(1,1),activation="relu")(prev_layer)
-        prev_layer = conv #BatchNormalization(axis=1)(conv)
-    return MaxPooling2D(pool_size=(2,2), strides=(2,2) )(prev_layer)
-
-
-def vgg16bn(output_classes, weights_file=None, include_top=True, trainable=True):
-    inputs = Input(shape=(256, 256, 4))
-    inps = BatchNormalization(axis=1)(inputs)
-    cb = conv_block(inps, 2, 64)
-    cb = conv_block(cb, 2, 128)
-    cb = conv_block(cb, 3, 256)
-    cb = conv_block(cb, 3, 512)
-    cb = conv_block(cb, 3, 512)
-
-    flattened = Flatten()(cb)
-
-    dense_1 = Dense(8192, activation='relu')(flattened)
-    bn_dense_1 = BatchNormalization(axis=1)(dense_1)
-    dropout_1 = Dropout(0.1)(bn_dense_1)
-
-    dense_2 = Dense(8192, activation='relu')(dropout_1)
-    bn_dense_2 = BatchNormalization(axis=1)(dense_2)
-
-    outs = []
-    counts =  [12315, 339, 862, 332, 101, 28431, 2089, 100, 4547, 3660, 2697, 7261, 37513, 8071, 340, 209, 7411]
-    for count, classification in zip(counts, output_classes):
-        if count < 2100:
-            out = Dense(1, activation='sigmoid', name=classification)(bn_dense_2)
-            outs.append(out)
-        else:
-            dropout_2 = Dropout(0.1)(bn_dense_2)
-            out = Dense(1, activation='sigmoid', name=classification)(bn_dense_2)
-            outs.append(out)
-
-    model = Model(inputs=inputs,outputs=outs)
+        prev_layer = BatchNormalization(axis=1)(conv)
+    return AveragePooling2D(pool_size=(2,2), strides=(2,2) )(prev_layer)

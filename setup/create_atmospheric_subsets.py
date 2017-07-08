@@ -25,10 +25,10 @@ for path in paths:
     train = random[fifteen_percent:]
     validation = random[:fifteen_percent]
     for f in train:
-        copyfile('data/train-jpg/'+f+'.jpg', path+'/train/'+f+'.jpg')
+        copyfile('data/train-tif-v2/'+f+'.tif', path+'/train/'+f+'.tif')
 
     for f in validation:
-        copyfile('data/train-jpg/'+f+'.jpg', path+'/valid/'+f+'.jpg')
+        copyfile('data/train-tif-v2/'+f+'.tif', path+'/valid/'+f+'.tif')
 
     cloudy_files = images_by_class["cloudy"][:3000]
     haze_files = images_by_class["haze"][:3000]
@@ -39,7 +39,7 @@ for path in paths:
         train = random[fifteen_percent:]
         validation = random[:fifteen_percent]
         for f in train:
-            copyfile('data/train-jpg/'+f+'.jpg', path+'/train/'+f+'.jpg')
+            copyfile('data/train-tif-v2/'+f+'.tif', path+'/train/'+f+'.tif')
 
         for f in validation:
-            copyfile('data/train-jpg/'+f+'.jpg', path+'/valid/'+f+'.jpg')
+            copyfile('data/train-tif-v2/'+f+'.tif', path+'/valid/'+f+'.tif')

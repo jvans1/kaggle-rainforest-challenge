@@ -5,7 +5,7 @@ from shutil import copyfile, rmtree
 
 
 base = 'data/samples'
-paths = ['/cloudy', '/partly_cloudy', '/clear', '/haze']
+paths = ['/partly_cloudy']
 
 for path in paths:
     full_path = base+path
@@ -27,7 +27,7 @@ for path in paths:
     valid_sample = valid_files[:800]
 
     for f in train_sample:
-        copyfile('data/train-jpg/'+f, full_path+'/train/'+f)
+        copyfile('data/train-tif-v2/'+f, full_path+'/train/'+f)
 
     for f in valid_sample:
-        copyfile('data/train-jpg/'+f, full_path+'/valid/'+f)
+        copyfile('data/train-tif-v2/'+f, full_path+'/valid/'+f)

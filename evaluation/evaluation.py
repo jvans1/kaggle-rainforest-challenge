@@ -16,5 +16,4 @@ model.load_weights("weights/cloudy-sample-1")
 
 model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
 preds = model.evaluate_generator(gen, settings.batch_count)
-print(preds)
 pdb.set_trace()
