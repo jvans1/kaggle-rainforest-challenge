@@ -47,8 +47,6 @@ def validation_generator(settings, mapping=None):
 def evaluation_data(settings, mapping=None):
     return settings.filenames, DirectoryIterator(settings.folder, settings.filenames, one_hot_filename_mapping=mapping, batch_size=settings.batch_size, shuffle=False)
 
-def load_to_numpy(path):
-    return io.imread(path)
 
 def images_by_classifications():
     images = {}
@@ -75,17 +73,6 @@ def image_label_mapping():
             i += 1
             if i == 1: continue
             images[row[0]+"."+'jpg'] = row[1].split(' ')
-    return images
-
-def images_to_class_mapping(img_format="tif", filename="train_v2.csv"):
-    images = {}
-    with open(filename) as csvfile:
-        i = 0
-        reader = csv.reader(csvfile)
-        for row in reader:
-            i += 1
-            if i == 1: continue
-            images[row[0]+"."+img_format] = row[1].split(' ')
     return images
 
 def classify_images(classifications, filename, img_format):
@@ -122,46 +109,3 @@ def eager_load_data(directory, result_mapping):
         results.append(result_mapping[f])
     return data, results
 
-class DirectoryIterator(Iterator):
-    def __init__(self,
-                directory,
-                filenames,
-                one_hot_filename_mapping=None,
-                target_size=(256, 256),
-                image_processor = None,
-                batch_size=32, shuffle=True, seed=None,
-                follow_links=False):
-        self.directory = directory
-        self.image_processor = image_processor
-        self.target_size = tuple(target_size)
-        self.image_shape =  target_size + (4,)
-        self.filenames = filenames
-        self.nb_sample = len(self.filenames)
-        self.one_hot_filename_mapping = one_hot_filename_mapping
-        super(DirectoryIterator, self).__init__(self.nb_sample, batch_size, shuffle, seed)
-
-    def add_result(self, output):
-        self.accumulated_results.append(output)
-
-    def next(self):
-        with self.lock:
-            index_array, current_index, current_batch_size = next(self.index_generator)
-        # The transformation of images is not under thread lock
-        # so it can be done in parallel
-        batch_x = np.zeros((current_batch_size,) + self.image_shape, dtype=K.floatx())
-        batch_y = []
-        for i, j in enumerate(index_array):
-            fname = self.filenames[j]
-            x = load_to_numpy(os.path.join(self.directory, fname))
-            if self.image_processor:
-                x = self.image_processor.random_transform(x)
-            batch_x[i] = x
-            if self.one_hot_filename_mapping:
-                res = self.one_hot_filename_mapping[fname]
-                batch_y.append(res)
-
-        if len(batch_y) > 0:
-            outs = np.asarray(batch_y)
-            return (batch_x, outs)
-        else:
-            return batch_x

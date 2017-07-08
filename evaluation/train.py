@@ -5,7 +5,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from config import Settings
 from image_loading.image_loader import train_generators
 from models.specializer import specializer
-from models.model import simple_cnn
+from models.model import simple_cnn, vgg
 from image_loading.utils import binary_one_hot_mapping
 
 condition = "partly_cloudy"
@@ -16,7 +16,7 @@ mapping = binary_one_hot_mapping(condition)
 
 gen, val_gen = train_generators(settings, mapping=mapping, image_processor=img_gen)
 
-model = specializer('partly_cloudy', 0.0)
+model = vgg()# specializer('partly_cloudy', 0.0)
 
 #  def learning_rate_scheduler(index):
     #  if index > 2:
