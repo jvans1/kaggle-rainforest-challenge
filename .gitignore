@@ -2,7 +2,6 @@ sample
 test
 train
 image_loader.pyc
-train_v2.csv
 *.pyc 
 weights/
 test-jpg/
