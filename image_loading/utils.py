@@ -1,5 +1,5 @@
 import bcolz
-from image_loading.image_loader import images_to_class_mapping
+from utils import images_to_class_mapping
 def save_array(fname, arr):
     c=bcolz.carray(arr, rootdir=fname, mode='w')
     c.flush()

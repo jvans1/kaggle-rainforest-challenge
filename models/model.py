@@ -2,7 +2,6 @@ from keras.layers import Input, Dense, Flatten, BatchNormalization, Conv2D, MaxP
 from image_loading.image_loader import eager_load_data
 from keras.models import Sequential
 from keras.regularizers import l2
-from image_loading.utils import save_array, load_array
 
 from keras.optimizers import Adam
 import numpy as np
@@ -18,9 +17,9 @@ def vgg():
     x = conv_block(x, 3, 512)
     x = conv_block(x, 3, 512)
     x = Flatten()(x)
-    x = Dense(4096,activation="relu")(x)
+    x = Dense(2048,activation="relu")(x)
     x = BatchNormalization()(x)
-    x = Dense(4096, activation="relu")(x)
+    x = Dense(2048, activation="relu")(x)
     x = BatchNormalization()(x)
     x = Dense(2, activation="softmax")(x)
     return Model(inputs=inps, outputs=x)
