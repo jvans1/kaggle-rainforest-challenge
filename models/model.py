@@ -19,6 +19,26 @@ def conv_block(prev_layer, layers, filters):
         prev_layer = BatchNormalization(axis=1)(conv)
     return MaxPooling2D(pool_size=(2,2), strides=(2,2) )(prev_layer)
 
+common = ['agriculture', 'cultivation', 'habitation', 'primary', 'road', 'water']
+def rare_model(dropout=0.0, regularization=0.0):
+    inputs = Input(shape=(256,256,3)
+    x = conv_block(inputs, 2, 64)
+    x = conv_block(x, 2, 128)
+    x = conv_block(x, 3, 256)
+    x = conv_block(x, 3, 512)
+    x = conv_block(x, 3, 512)
+    x = Flatten()(x)
+    x = BatchNormalization()(x)
+    x = Dense(4096, activation="relu", kernel_regularizer=l2(regularization))(x)
+    x = BatchNormalization()(x)
+    x = Dropout(dropout)(x)
+    x = Dense(4096, activation="relu", kernel_regularizer=l2(regularization))(x)
+    x = BatchNormalization()
+    x = Dropout(dropout)(x)
+    outs = [Dense(2, activation="softmax", name=label)(x) for label in common ]
+    model = Model(inputs=inputs,outputs=outs)
+
+
 def dense_layers(dropout=0.0, regularization=0.0):
     return [
         Flatten(input_shape=(8,8,512)),
