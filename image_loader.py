@@ -1,8 +1,16 @@
 from skimage import io
 import os
 from keras import backend as K
+import pdb
 from keras.preprocessing.image import Iterator
 import numpy as np
+
+
+vgg_mean = np.array([123.68, 116.779, 103.939], dtype=np.float32)
+def vgg_preprocess(x):
+    x = x - vgg_mean
+    return x[:, :, ::-1] # reverse axis rgb->bgr
+
 def load_to_numpy(path):
     return io.imread(path)
 
@@ -18,9 +26,10 @@ class DirectoryIterator(Iterator):
         self.directory = directory
         self.image_processor = image_processor
         self.target_size = tuple(target_size)
-        self.image_shape =  target_size + (4,)
+        self.image_shape =  target_size + (3,)
         self.filenames = filenames
         self.nb_sample = len(self.filenames)
+        self.batch_ys = []
         self.one_hot_filename_mapping = one_hot_filename_mapping
         super(DirectoryIterator, self).__init__(self.nb_sample, batch_size, shuffle, seed)
 
@@ -39,10 +48,13 @@ class DirectoryIterator(Iterator):
             x = load_to_numpy(os.path.join(self.directory, fname))
             if self.image_processor:
                 x = self.image_processor.random_transform(x)
-            batch_x[i] = x
+            if x.shape[-1] == 4:
+                pdb.set_trace()
+            batch_x[i] = vgg_preprocess(x)
             if self.one_hot_filename_mapping:
                 res = self.one_hot_filename_mapping[fname]
                 batch_y.append(res)
+                self.batch_ys.append(fname)
 
         if len(batch_y) > 0:
             outs = np.asarray(batch_y)

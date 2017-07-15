@@ -27,7 +27,7 @@ for path in paths:
     valid_sample = valid_files[:800]
 
     for f in train_sample:
-        copyfile('data/train-tif-v2/'+f, full_path+'/train/'+f)
+        copyfile('data/train-jpg/'+f, full_path+'/train/'+f)
 
     for f in valid_sample:
-        copyfile('data/train-tif-v2/'+f, full_path+'/valid/'+f)
+        copyfile('data/train-jpg/'+f, full_path+'/valid/'+f)

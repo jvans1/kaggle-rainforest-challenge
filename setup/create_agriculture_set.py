@@ -27,10 +27,10 @@ validation = random[:num_for_validation]
 print("Training set has " +str(len(train)) + " images from the specific class")
 print("Validation set has " +str(len(validation)) + " images from the specific class")
 for f in train:
-    copyfile('data/train-tif-v2/'+f+'.tif', path+'/train/'+f+'.tif')
+    copyfile('data/train-jpg/'+f+'.jpg', path+'/train/'+f+'.jpg')
 
 for f in validation:
-    copyfile('data/train-tif-v2/'+f+'.tif', path+'/valid/'+f+'.tif')
+    copyfile('data/train-jpg/'+f+'.jpg', path+'/valid/'+f+'.jpg')
 
 images_by_class.pop(klass)
 
@@ -45,7 +45,7 @@ print("Adding " +str(len(train))+ " other types of images to training set")
 print("Adding " +str(len(valid))+ " other types of images to valid set")
 
 for f in train:
-    copyfile('data/train-tif-v2/'+f+'.tif', path+'/train/'+f+'.tif')
+    copyfile('data/train-jpg/'+f+'.jpg', path+'/train/'+f+'.jpg')
 
 for f in valid:
-    copyfile('data/train-tif-v2/'+f+'.tif', path+'/valid/'+f+'.tif')
+    copyfile('data/train-jpg/'+f+'.jpg', path+'/valid/'+f+'.jpg')

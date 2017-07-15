@@ -2,30 +2,28 @@ from keras.optimizers import Adam
 from keras.callbacks import LearningRateScheduler
 import pdb
 from keras.preprocessing.image import ImageDataGenerator
-from config import Settings
-from image_loading.image_loader import train_generators
-from models.specializer import specializer
-from models.model import simple_cnn, vgg
-from image_loading.utils import binary_one_hot_mapping
 
-condition = "partly_cloudy"
-folder = "data/samples/"+condition
-settings = Settings(folder, model_type=condition, batch_size=20)
-img_gen = ImageDataGenerator(rotation_range=180, shear_range=0.3, width_shift_range=0.2, height_shift_range=0.2, horizontal_flip=True, vertical_flip=True)
-mapping = binary_one_hot_mapping(condition)
+klass = "partly_cloudy"
+mapping = binary_one_hot_mapping(klass)
 
-gen, val_gen = train_generators(settings, mapping=mapping, image_processor=img_gen)
+batch_size = 64
 
-model = vgg()# specializer('partly_cloudy', 0.0)
+folder = "data/train/"
+train_folder = folder+"train"
+train_filenames = os.listdir(train_folder)
+validation_folder = folder+"valid"
+validation_filenames = os.listdir(validation_folder)
+train_batch_count = len(train_filenames) / batch_size
+val_batch_count = len(validation_filenames) / batch_size
 
-#  def learning_rate_scheduler(index):
-    #  if index > 2:
-        #  return 0.001
-    #  else:
-        #  return 0.01
+gen_t = image.ImageDataGenerator(vertical_flip=True, horizontal_flip=True)
 
-#  learning_rate_annealer = LearningRateScheduler(learning_rate_scheduler)
-callbacks = settings.callbacks# + [learning_rate_annealer]
+gen = IM.DirectoryIterator(train_folder, train_filenames, image_processor=gen_t, one_hot_filename_mapping=mapping, batch_size=batch_size, shuffle=True)
+val_gen = IM.DirectoryIterator(validation_folder, validation_filenames, one_hot_filename_mapping=mapping, batch_size=batch_size, shuffle=False)
 
-model.compile(optimizer=Adam(lr=0.0001), loss='binary_crossentropy', metrics=['accuracy'])
-model.fit_generator(gen, settings.training_batch_count, epochs=3, validation_data = val_gen, validation_steps=settings.validation_batch_count, callbacks=callbacks)
+for l in full_model.layers:
+    l.trainable = True
+
+full_model.compile(optimizer=(Adam(lr=0.00001)), metrics=["accuracy"], loss="categorical_crossentropy")
+preds = full_model.fit_generator(gen, train_batch_count, epochs=2, validation_data=val_gen, validation_steps=val_batch_count , callbacks=callbacks)
+
